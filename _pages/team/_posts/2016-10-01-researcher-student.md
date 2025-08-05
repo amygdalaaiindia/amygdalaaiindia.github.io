@@ -1,8 +1,8 @@
 ---
 layout: member
 category: student
-title: Researcher Name
-image: researcher.png
+title: Trishaani Acharjee
+image: Trishaani Acharjee IEEE Access res.png
 role: PhD Student
 permalink: 'team/researcher-name'
 social:
