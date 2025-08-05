@@ -20,5 +20,5 @@ education:
 ---
 
 He received his B.E. in Computer Science and Engineering degree from The University of Burdwan in 2008, and both the
-M.Tech. and Ph.D. degrees in Computer Science and Engineering from KIIT Deemed to be University, India in 2011 and 2020, respectively. He also qualified for GATE-2008 with All India Rank 1410. He is a recipient of the Chester W Sall Memorial Awards 2024 for the 2nd place of the IEEE Consumer Electronics Society. He is currently working as an Associate Professor at the School of Computer Engineering, KIIT, India (https://cse.kiit.ac.in/faculty/). His research areas include machine
+M.Tech. and Ph.D. degrees in Computer Science and Engineering from KIIT Deemed to be University, India in 2011 and 2020, respectively. He also qualified for **GATE-2008 with All India Rank 1410** and **KIITEE-MTECH with All India Rank 1**. He is a recipient of the **Chester W Sall Memorial Awards 2024 for the 2nd place of the IEEE Consumer Electronics Society**. He is currently working as an Associate Professor at the School of Computer Engineering, KIIT, India (https://cse.kiit.ac.in/faculty/). His research areas include machine
 learning, deep learning, the brain-computer interface, and computer vision.
