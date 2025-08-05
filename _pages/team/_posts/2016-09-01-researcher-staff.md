@@ -1,8 +1,8 @@
 ---
 layout: member
 category: staff
-title: Researcher Name
-image: researcher.png
+title: Rajdeep Chatterjee, Ph.D.
+image: Rajdeep-Chatterjee-600x600.jpg
 role: Lab Director
 permalink: 'team/researcher-name'
 social:
