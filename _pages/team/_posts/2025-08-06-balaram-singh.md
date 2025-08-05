@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Balaram-Singh
-image: Balaram-Singh.png
+image: Balaram pic gray bg.png
 role: PhD Student
 permalink: 'team/Balaram-Singh'
 social:
