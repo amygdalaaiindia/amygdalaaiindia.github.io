@@ -4,7 +4,7 @@ category: staff
 title: Rajdeep Chatterjee, Ph.D.
 image: Rajdeep-Chatterjee-600x600.jpg
 role: Lab Director
-permalink: 'team/researcher-name'
+permalink: 'team/Rajdeep-Chatterjee'
 social:
     twitter: https://x.com/Rajdeep_KIIT
     linkedin: https://www.linkedin.com/in/rajdeep-chatterjee-ph-d-60352325
