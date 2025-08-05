@@ -1,9 +1,10 @@
 ---
 layout: member
 category: student
-title: Balaram-Singh
+title: Balaram Singh
 image: Balaram pic gray bg.png
 role: PhD Student
+date: 2025-08-06
 permalink: 'team/Balaram-Singh'
 social:
     twitter: https://twitter.com/
