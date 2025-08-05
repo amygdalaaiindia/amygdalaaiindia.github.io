@@ -14,7 +14,9 @@ social:
     orcid: https://orcid.org/0000-0003-0125-4830
     research-gate: https://www.researchgate.net/profile/Rajdeep_Chatterjee2
 education:
- - Education
+ - Ph.D. in Computer Science and Engineering, KIIT-DU
+ - M.Tech. in Computer Science and Engineering, KIIT-DU
+ - B.E. in in Computer Science and Engineering, The University of Burdwan
 ---
 
 He received his B.E. in Computer Science and Engineering degree from The University of Burdwan in 2008, and both the
