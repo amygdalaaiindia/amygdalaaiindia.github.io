@@ -4,7 +4,7 @@ category: student
 title: Trishaani Acharjee
 image: Trishaani Acharjee IEEE Access res.png
 role: PhD Student
-permalink: 'team/researcher-name'
+permalink: 'team/Trishaani-Acharjee'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
