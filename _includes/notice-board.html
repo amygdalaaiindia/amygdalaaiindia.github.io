@@ -1,15 +1,13 @@
 <div class="notice-board">
-  <h3>📢 Announcements</h3>
+  <h3 class="notice-header">📢 Announcements</h3>
   <div class="notices-container">
     <div class="notices">
       {% if site.data.notices.recent_notices %}
-        {% for notice in site.data.notices.recent_notices %}
-          <div class="notice-item">
-            <h4>{{ notice.title }}</h4>
-            <small>{{ notice.date | date: "%b %d, %Y" }}</small>
-            <div class="notice-content">{{ notice.content | markdownify }}</div>
-          </div>
-        {% endfor %}
+        <div class="notice-item" id="notice-rotator">
+          <h4 class="notice-title" id="notice-title"></h4>
+          <small class="notice-date" id="notice-date"></small>
+          <div class="notice-content" id="notice-content"></div>
+        </div>
       {% else %}
         <p class="no-notices">No current announcements.</p>
       {% endif %}
@@ -17,133 +15,120 @@
   </div>
 </div>
 
-<style>
-  .notice-board {
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 0;
-    width: 300px;
-    overflow: hidden;
-    position: relative;
+<script>
+  // Inject the notices array from Jekyll
+  const notices = [
+    {% for notice in site.data.notices.recent_notices %}
+      {
+        title: `{{ notice.title | escape }}`,
+        date: `{{ notice.date | date: "%b %d, %Y" }}`,
+        content: `{{ notice.content | markdownify | strip_newlines | replace: '"', '\"' | strip }}`,
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ];
+
+  let currentIndex = 0;
+
+  function rotateNotice() {
+    const titleEl = document.getElementById('notice-title');
+    const dateEl = document.getElementById('notice-date');
+    const contentEl = document.getElementById('notice-content');
+    const noticeBox = document.getElementById('notice-rotator');
+
+    if (!notices.length) return;
+
+    // Fade out
+    noticeBox.classList.remove('fade-in');
+    noticeBox.classList.add('fade-out');
+
+    setTimeout(() => {
+      // Update content
+      titleEl.innerHTML = notices[currentIndex].title;
+      dateEl.innerHTML = notices[currentIndex].date;
+      contentEl.innerHTML = notices[currentIndex].content;
+
+      // Fade in
+      noticeBox.classList.remove('fade-out');
+      noticeBox.classList.add('fade-in');
+
+      // Advance index
+      currentIndex = (currentIndex + 1) % notices.length;
+    }, 500); // Time matches the fade-out duration
   }
 
-  .notice-board h3 {
+  // Initial render
+  document.addEventListener("DOMContentLoaded", () => {
+    rotateNotice();
+    setInterval(rotateNotice, 5000); // every 5 seconds
+  });
+</script>
+
+<style>
+  .notice-board {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    padding: 0;
+    max-width: 350px;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .notice-header {
     background: #2c3e50;
     color: white;
-    padding: 12px 15px;
+    padding: 12px 16px;
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1.2rem;
+    border-radius: 8px 8px 0 0;
   }
 
   .notices-container {
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .notices {
-    position: absolute;
-    width: 100%;
-    padding: 15px;
-    box-sizing: border-box;
-    top: 0;
-    transition: transform 0.5s ease;
+    padding: 12px;
+    min-height: 150px;
   }
 
   .notice-item {
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #eee;
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 12px;
+    border-radius: 0 4px 4px 0;
+    transition: opacity 0.5s ease;
+    opacity: 1;
   }
 
-  .notice-item:last-child {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    border-bottom: none;
+  .notice-item.fade-out {
+    opacity: 0;
   }
 
-  .notice-item h4 {
-    margin: 0 0 5px 0;
+  .notice-item.fade-in {
+    opacity: 1;
+  }
+
+  .notice-title {
     color: #2c3e50;
-    font-size: 1em;
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
   }
 
-  .notice-item small {
+  .notice-date {
     color: #7f8c8d;
-    font-size: 0.8em;
     display: block;
     margin-bottom: 8px;
+    font-size: 0.85rem;
   }
 
   .notice-content {
     color: #34495e;
-    font-size: 0.9em;
-    line-height: 1.4;
+    line-height: 1.5;
+    font-size: 0.95rem;
   }
 
   .no-notices {
-    color: #95a5a6;
+    color: #7f8c8d;
     text-align: center;
     padding: 20px;
     font-style: italic;
   }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const container = document.querySelector('.notices-container');
-  const notices = document.querySelector('.notices');
-  const noticeItems = document.querySelectorAll('.notice-item');
-  
-  if (noticeItems.length > 1) {
-    // Calculate total height needed
-    let totalHeight = 0;
-    noticeItems.forEach(item => {
-      totalHeight += item.offsetHeight;
-    });
-    
-    // Add margin for the last item
-    totalHeight += parseInt(window.getComputedStyle(noticeItems[0]).marginBottom) * (noticeItems.length - 1);
-    
-    const containerHeight = container.offsetHeight;
-    const scrollableHeight = totalHeight - containerHeight;
-    let scrollPosition = 0;
-    let animationId;
-    let isHovered = false;
-    
-    function autoScroll() {
-      if (!isHovered) {
-        if (scrollPosition < scrollableHeight) {
-          scrollPosition += 0.5;
-          notices.style.transform = `translateY(-${scrollPosition}px)`;
-        } else {
-          // When reaching bottom, reset to top after 2 seconds
-          setTimeout(() => {
-            scrollPosition = 0;
-            notices.style.transform = `translateY(0)`;
-          }, 2000);
-        }
-      }
-      animationId = requestAnimationFrame(autoScroll);
-    }
-    
-    // Start auto-scroll
-    autoScroll();
-    
-    // Pause on hover
-    container.addEventListener('mouseenter', () => {
-      isHovered = true;
-    });
-    
-    container.addEventListener('mouseleave', () => {
-      isHovered = false;
-    });
-    
-    // Clean up
-    window.addEventListener('beforeunload', () => {
-      cancelAnimationFrame(animationId);
-    });
-  }
-});
-</script>
