@@ -1,152 +1,16 @@
 <div class="notice-board">
-  <h3 class="notice-header">📢 Announcements</h3>
-  <div class="notices-container">
-    <div class="notices">
-      {% if site.data.notices.recent_notices %}
-        {% for notice in site.data.notices.recent_notices %}
-          <div class="notice-item">
-            <h4 class="notice-title">{{ notice.title }}</h4>
-            <small class="notice-date">{{ notice.date | date: "%b %d, %Y" }}</small>
-            <div class="notice-content">{{ notice.content | markdownify }}</div>
-          </div>
-        {% endfor %}
-      {% else %}
-        <p class="no-notices">No current announcements.</p>
-      {% endif %}
-    </div>
+  <h3>📢 Announcements</h3>
+  <div class="notices">
+    {% if site.data.notices.recent_notices %}
+      {% for notice in site.data.notices.recent_notices %}
+        <div class="notice-item">
+          <h4>{{ notice.title }}</h4>
+          <small>{{ notice.date | date: "%b %d, %Y" }}</small>
+          <p>{{ notice.content | markdownify }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p class="debug">DEBUG: No notices found. Data: {{ site.data.notices | inspect }}</p>
+    {% endif %}
   </div>
 </div>
-
-<style>
-  .notice-board {
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e0e0e0;
-    padding: 0;
-    width: 300px;
-    overflow: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .notice-header {
-    background: #2c3e50;
-    color: white;
-    padding: 12px 16px;
-    margin: 0;
-    font-size: 1.1rem;
-    border-radius: 8px 8px 0 0;
-  }
-
-  .notices-container {
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  .notices {
-    position: absolute;
-    width: 100%;
-    padding: 10px;
-  }
-
-  .notice-item {
-    background: #f8f9fa;
-    border-left: 3px solid #3498db;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 0 4px 4px 0;
-  }
-
-  .notice-title {
-    color: #2c3e50;
-    margin: 0 0 5px 0;
-    font-size: 1rem;
-  }
-
-  .notice-date {
-    color: #7f8c8d;
-    display: block;
-    margin-bottom: 5px;
-    font-size: 0.8rem;
-  }
-
-  .notice-content {
-    color: #34495e;
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .notice-content p {
-    margin: 5px 0 0 0;
-  }
-
-  .no-notices {
-    color: #7f8c8d;
-    text-align: center;
-    padding: 20px;
-    font-style: italic;
-  }
-</style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const container = document.querySelector('.notices-container');
-  const notices = document.querySelector('.notices');
-  const noticeItems = document.querySelectorAll('.notice-item');
-  
-  // Only enable scrolling if more than 1 notice
-  if (noticeItems.length > 1) {
-    // Calculate total height needed
-    let totalHeight = 0;
-    noticeItems.forEach(item => {
-      totalHeight += item.offsetHeight + 10; // 10px margin-bottom
-    });
-    
-    // Set container height to show all notices
-    container.style.height = 'auto';
-    notices.style.position = 'relative';
-    
-    // If notices exceed container height, enable scrolling
-    if (totalHeight > container.offsetHeight) {
-      container.style.height = '300px';
-      container.style.overflow = 'hidden';
-      notices.style.position = 'absolute';
-      
-      let scrollPosition = 0;
-      let animationId;
-      let isHovered = false;
-      const scrollSpeed = 0.5; // pixels per frame (adjust as needed)
-      
-      function autoScroll() {
-        if (!isHovered && scrollPosition < totalHeight - container.offsetHeight) {
-          scrollPosition += scrollSpeed;
-          notices.style.transform = `translateY(-${scrollPosition}px)`;
-        } else if (scrollPosition >= totalHeight - container.offsetHeight) {
-          // Reset to top when reaching bottom
-          scrollPosition = 0;
-          notices.style.transform = `translateY(0)`;
-        }
-        animationId = requestAnimationFrame(autoScroll);
-      }
-      
-      // Start auto-scroll
-      autoScroll();
-      
-      // Pause on hover
-      container.addEventListener('mouseenter', () => {
-        isHovered = true;
-      });
-      
-      container.addEventListener('mouseleave', () => {
-        isHovered = false;
-      });
-      
-      // Clean up animation when leaving page
-      window.addEventListener('beforeunload', () => {
-        cancelAnimationFrame(animationId);
-      });
-    }
-  }
-});
-</script>
