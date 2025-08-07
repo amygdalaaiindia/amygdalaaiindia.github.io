@@ -48,6 +48,22 @@ layout: default
 	{% include tweets.html %}
 </div>
 
-<div class="notice-sidebar">
-    {% include notice-board.html %}
-</div>
+<!-- Notice Board -->
+  <div class="notice-board">
+    <h3>📢 Announcements</h3>
+    <div class="notices-container">
+      <div class="notices">
+        {% if site.data.notices.recent_notices %}
+          {% for notice in site.data.notices.recent_notices %}
+            <div class="notice-item">
+              <h4>{{ notice.title }}</h4>
+              <small>{{ notice.date | date: "%b %d, %Y" }}</small>
+              <div class="notice-content">{{ notice.content | markdownify }}</div>
+            </div>
+          {% endfor %}
+        {% else %}
+          <p class="no-notices">No current announcements.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
