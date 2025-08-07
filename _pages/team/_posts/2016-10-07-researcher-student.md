@@ -1,3 +1,4 @@
+---
 layout: member
 category: student
 title: Rajesh Chowdhury
@@ -16,6 +17,7 @@ social:
 
 education: 
 - B.Tech in Computer Science and Engineering, KIIT-DU
+---
 
 bio: 
 Rajesh Chowdhury completed his Bachelor's degree in Computer Science and Engineering in 2025. His research interests lie in 
