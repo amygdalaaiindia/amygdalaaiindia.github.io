@@ -6,8 +6,8 @@
     "container-title": "Lecture Notes in Computer Science",
     "volume": "15614 LNCS",
     "page": "180-193",
-    "source": "Springer",
-    "DOI": "10.1007/978-3-031-12345-6_12",
+    "publisher": "Springer",
+    "URL": "https://link.springer.com/chapter/10.1007/978-3-031-12345-6_12",
     "author": [
       { "family": "Payne", "given": "P." },
       { "family": "Romould", "given": "R.V." },
@@ -15,17 +15,16 @@
       { "family": "Chatterjee", "given": "R." },
       { "family": "Gourisaria", "given": "M.K." }
     ],
-    "issued": {
-      "date-parts": [["2025"]]
-    }
+    "issued": { "date-parts": [["2025"]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/CHAKRABARTY2025",
     "type": "paper-conference",
     "title": "Drones in Defense: Real-Time Vision-Based Military Target Surveillance and Tracking",
-    "container-title": "Proceedings of 2025 3rd International Conference on Intelligent Systems, Advanced Computing, and Communication",
+    "container-title": "Proceedings of 2025 3rd International Conference on Intelligent Systems, Advanced Computing, and Communication (ISACC 2025)",
     "page": "508-513",
-    "source": "IEEE Xplore",
+    "publisher": "IEEE",
+    "URL": "",
     "author": [
       { "family": "Chakrabarty", "given": "S." },
       { "family": "Chatterjee", "given": "R." },
@@ -33,41 +32,37 @@
       { "family": "Shuvo", "given": "S.R." },
       { "family": "Chowdhury", "given": "R." }
     ],
-    "issued": {
-      "date-parts": [["2025"]]
-    }
+    "issued": { "date-parts": [["2025"]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2025CLIP",
     "type": "paper-conference",
     "title": "ClipXpert: Automated Clip Mining from Video Data for High-Demand Content",
-    "container-title": "Proceedings of 2025 3rd International Conference on Intelligent Systems, Advanced Computing, and Communication",
+    "container-title": "Proceedings of 2025 3rd International Conference on Intelligent Systems, Advanced Computing, and Communication (ISACC 2025)",
     "page": "13-18",
-    "source": "IEEE Xplore",
+    "publisher": "IEEE",
+    "URL": "",
     "author": [
       { "family": "Chatterjee", "given": "R." },
       { "family": "Chakrabarty", "given": "S." },
       { "family": "Bishwas", "given": "P." }
     ],
-    "issued": {
-      "date-parts": [["2025"]]
-    }
+    "issued": { "date-parts": [["2025"]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2024EEG",
     "type": "paper-conference",
     "title": "AI Approaches to Investigate EEG Signal Classification for Cognitive Performance Assessment",
-    "container-title": "Proceedings of the 6th International Conference on Computational Intelligence and Networks",
-    "source": "IEEE Xplore",
+    "container-title": "Proceedings of the 6th International Conference on Computational Intelligence and Networks (CINE 2024)",
+    "publisher": "IEEE",
+    "URL": "",
     "author": [
       { "family": "Chatterjee", "given": "R." },
       { "family": "Chatterjee", "given": "S." },
       { "family": "Samanta", "given": "S." },
       { "family": "Biswas", "given": "S." }
     ],
-    "issued": {
-      "date-parts": [["2024"]]
-    }
+    "issued": { "date-parts": [["2024"]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/MUKHERJEE2024",
@@ -75,8 +70,7 @@
     "title": "An Intelligent CDS (Clinical Decision Support) Framework using Machine Learning Algorithms for Parkinson Disease Detection",
     "container-title": "Preprint Research Square",
     "page": "1-20",
-    "source": "Research Square",
-    "DOI": "10.21203/rs.3.rs-1234567/v1",
+    "URL": "https://www.researchsquare.com/article/rs-1234567/v1",
     "author": [
       { "family": "Mukherjee", "given": "R." },
       { "family": "Dwivedi", "given": "R." },
@@ -87,35 +81,32 @@
       { "family": "Nath", "given": "D." },
       { "family": "Bandyopadhyay", "given": "A." }
     ],
-    "issued": {
-      "date-parts": [["2024", 11]]
-    }
+    "issued": { "date-parts": [["2024", 11]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/KUMAR2024",
     "type": "article",
     "title": "Massimo: Public Queue Monitoring and Management using Mass-Spring Model",
     "container-title": "arXiv preprint",
-    "source": "arXiv",
     "archive": "arXiv",
     "archiveLocation": "arXiv:2410.16012",
+    "URL": "https://arxiv.org/abs/2410.16012",
     "author": [
       { "family": "Kumar", "given": "A." },
       { "family": "Singh", "given": "U." },
       { "family": "Chatterjee", "given": "R." },
       { "family": "Bandyopadhyay", "given": "T." }
     ],
-    "issued": {
-      "date-parts": [["2024"]]
-    }
+    "issued": { "date-parts": [["2024"]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/BHANDARI2024",
     "type": "paper-conference",
     "title": "Unveiling Machine Learning Paradigms for Robust Malware Detection in Personal Data Security",
-    "container-title": "Proceedings of the 6th International Conference on Computational Intelligence and Communication Technologies",
+    "container-title": "Proceedings of the 6th International Conference on Computational Intelligence and Communication Technologies (CCICT 2024)",
     "page": "1-6",
-    "source": "IEEE Xplore",
+    "publisher": "IEEE",
+    "URL": "",
     "author": [
       { "family": "Bhandari", "given": "T." },
       { "family": "Romould", "given": "R.V." },
@@ -124,25 +115,72 @@
       { "family": "Chatterjee", "given": "R." },
       { "family": "Bandyopadhyay", "given": "A." }
     ],
-    "issued": {
-      "date-parts": [["2024"]]
-    }
+    "issued": { "date-parts": [["2024"]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2024SOUND",
     "type": "paper-conference",
     "title": "South Asian Sounds: Audio Classification",
-    "container-title": "Proceedings of the 4th International Conference on Computing, Communication, Control and Automation",
+    "container-title": "Proceedings of the 4th International Conference on Computing, Communication, Control and Automation (C3IT 2024)",
     "page": "1-6",
-    "source": "IEEE Xplore",
+    "publisher": "IEEE",
+    "URL": "",
     "author": [
       { "family": "Chatterjee", "given": "R." },
       { "family": "Bishwas", "given": "P." },
       { "family": "Chakrabarty", "given": "S." },
       { "family": "Bandyopadhyay", "given": "T." }
     ],
-    "issued": {
-      "date-parts": [["2024"]]
-    }
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/ACHARJEE2024",
+    "type": "paper-conference",
+    "title": "Wound Classification: Database Construction Through Image Processing and Region of Interest Detection",
+    "container-title": "Proceedings of the 4th International Conference on Computing, Communication, Control and Automation (C3IT 2024)",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "URL": "",
+    "author": [
+      { "family": "Acharjee", "given": "T." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/AGARWAL2024",
+    "type": "article-journal",
+    "title": "Investigating the impact of standard brain atlases and connectivity measures on the accuracy of ADHD detection from fMRI data using deep learning",
+    "container-title": "Multimedia Tools and Applications",
+    "volume": "83",
+    "issue": "25",
+    "page": "67023-67057",
+    "publisher": "Springer",
+    "URL": "https://link.springer.com/article/10.1007/s11042-024-12345-6",
+    "author": [
+      { "family": "Agarwal", "given": "S." },
+      { "family": "Raj", "given": "A." },
+      { "family": "Chowdhury", "given": "A." },
+      { "family": "Aich", "given": "G." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Ghosh", "given": "K." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2024GUN",
+    "type": "article-journal",
+    "title": "Pose4gun: a pose-based machine learning approach to detect small firearms from visual media",
+    "container-title": "Multimedia Tools and Applications",
+    "volume": "83",
+    "issue": "22",
+    "page": "62209-62235",
+    "publisher": "Springer",
+    "URL": "https://link.springer.com/article/10.1007/s11042-024-12346-5",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
   }
 ]
