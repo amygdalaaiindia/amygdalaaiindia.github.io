@@ -1,16 +1,17 @@
 <!-- _includes/notice-board.html -->
-<pre>
-  {{ site.data.notices | inspect }}
-</pre>
 <div class="notice-board">
   <h3>📢 Announcements</h3>
   <div class="notices">
-    {% for notice in site.data.notices.recent_notices %}
-      <div class="notice-item">
-        <h4>{{ notice.title }}</h4>
-        <small>{{ notice.date | date: "%b %d, %Y" }}</small>
-        <p>{{ notice.content }}</p>
-      </div>
-    {% endfor %}
+    {% if site.data.notices.recent_notices %}
+      {% for notice in site.data.notices.recent_notices %}
+        <div class="notice-item">
+          <h4>{{ notice.title }}</h4>
+          <small>{{ notice.date | date: "%b %d, %Y" }}</small>
+          <p>{{ notice.content | markdownify }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No current announcements.</p>
+    {% endif %}
   </div>
 </div>
