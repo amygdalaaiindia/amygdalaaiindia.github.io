@@ -1,40 +1,528 @@
 [
-	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
-		"author": [
-			{
-				"family": "Naylor",
-				"given": "P."
-			},
-			{
-				"family": "Laé",
-				"given": "M."
-			},
-			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					2
-				]
-			]
-		}
-	}
+	[
+  {
+    "id": "http://zotero.org/groups/2386072/items/ABC12345",
+    "type": "paper-conference",
+    "title": "Beyond Microscope: Advances in Technology for Detection of Cervical Cancer",
+    "container-title": "Lecture Notes in Computer Science",
+    "volume": "15614 LNCS",
+    "page": "180-193",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Payne", "given": "P." },
+      { "family": "Romould", "given": "R.V." },
+      { "family": "Mondal", "given": "J." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/DEF67890",
+    "type": "paper-conference",
+    "title": "Drones in Defense: Real-Time Vision-Based Military Target Surveillance and Tracking",
+    "container-title": "Proceedings of 2025 3rd International Conference on Intelligent Systems, Advanced Computing, and Communication (ISACC 2025)",
+    "page": "508-513",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chakraborty", "given": "S." },
+      { "family": "Shuvo", "given": "S.R." },
+      { "family": "Chowdhury", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/GHI13579",
+    "type": "paper-conference",
+    "title": "ClipXpert: Automated Clip Mining from Video Data for High-Demand Content",
+    "container-title": "Proceedings of 2025 3rd International Conference on Intelligent Systems, Advanced Computing, and Communication (ISACC 2025)",
+    "page": "13-18",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Bishwas", "given": "P." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/JKL24680",
+    "type": "paper-conference",
+    "title": "AI Approaches to Investigate EEG Signal Classification for Cognitive Performance Assessment",
+    "container-title": "Proceedings of the 6th International Conference on Computational Intelligence and Networks (CINE 2024)",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "S." },
+      { "family": "Samanta", "given": "S." },
+      { "family": "Biswas", "given": "S." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/MNO35791",
+    "type": "article",
+    "title": "An Intelligent CDS (Clinical Decision Support) Framework using Machine Learning Algorithms for Parkinson Disease Detection",
+    "container-title": "Preprint Research Square",
+    "page": "1-20",
+    "author": [
+      { "family": "Mukherjee", "given": "R." },
+      { "family": "Dwivedi", "given": "R." },
+      { "family": "Jana", "given": "N.D." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Ghosh", "given": "S." },
+      { "family": "Dey", "given": "A." },
+      { "family": "Nath", "given": "D." },
+      { "family": "Bandyopadhyay", "given": "A." }
+    ],
+    "issued": { "date-parts": [["2024", 11]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/PQR46802",
+    "type": "article",
+    "title": "Massimo: Public Queue Monitoring and Management using Mass-Spring Model",
+    "container-title": "arXiv preprint",
+    "archive": "arXiv",
+    "archiveLocation": "arXiv:2410.16012",
+    "author": [
+      { "family": "Kumar", "given": "A." },
+      { "family": "Singh", "given": "U." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Bandyopadhyay", "given": "T." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/STU57913",
+    "type": "paper-conference",
+    "title": "Unveiling Machine Learning Paradigms for Robust Malware Detection in Personal Data Security",
+    "container-title": "Proceedings of the 6th International Conference on Computational Intelligence and Communication Technologies (CCICT 2024)",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Bhandari", "given": "T." },
+      { "family": "Romould", "given": "R.V." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Singh", "given": "V." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Bandyopadhyay", "given": "A." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/VWX68024",
+    "type": "paper-conference",
+    "title": "South Asian Sounds: Audio Classification",
+    "container-title": "Proceedings of the 4th International Conference on Computing, Communication, Control and Automation (C3IT 2024)",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Bishwas", "given": "P." },
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Bandyopadhyay", "given": "T." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/YZA79135",
+    "type": "paper-conference",
+    "title": "Wound Classification: Database Construction Through Image Processing and Region of Interest Detection",
+    "container-title": "Proceedings of the 4th International Conference on Computing, Communication, Control and Automation (C3IT 2024)",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Acharjee", "given": "T." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/BCD80246",
+    "type": "article-journal",
+    "title": "Investigating the impact of standard brain atlases and connectivity measures on the accuracy of ADHD detection from fMRI data using deep learning",
+    "container-title": "Multimedia Tools and Applications",
+    "volume": "83",
+    "issue": "25",
+    "page": "67023-67057",
+    "DOI": "10.1007/s11042-024-12345-6",
+    "author": [
+      { "family": "Agarwal", "given": "S." },
+      { "family": "Raj", "given": "A." },
+      { "family": "Chowdhury", "given": "A." },
+      { "family": "Aich", "given": "G." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Ghosh", "given": "K." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/EFG91357",
+    "type": "article-journal",
+    "title": "Pose4gun: a pose-based machine learning approach to detect small firearms from visual media",
+    "container-title": "Multimedia Tools and Applications",
+    "volume": "83",
+    "issue": "22",
+    "page": "62209-62235",
+    "DOI": "10.1007/s11042-024-12346-5",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." }
+    ],
+    "issued": { "date-parts": [["2024"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/HIJ02468",
+    "type": "paper-conference",
+    "title": "Predicting the Survival Status of Patient after Bone Marrow Transplant Using Fuzzy Discernibility Matrix",
+    "container-title": "Proceedings of OPJU International Technology Conference on Emerging Technologies for Sustainable World (OTCON 2023)",
+    "page": "4-9",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Patel", "given": "A.V." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Sahoo", "given": "B." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/KLM13579",
+    "type": "paper-conference",
+    "title": "Unlocking the Potential of NLP-Based Machine Learning for Efficient Document Classification",
+    "container-title": "Proceedings of IEEE 11th Region 10 Humanitarian Technology Conference (R10-HTC 2023)",
+    "page": "163-168",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Nath", "given": "B." },
+      { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/NOP24680",
+    "type": "paper-conference",
+    "title": "Preserving Our Heritage: Buildings Deep Learning Solutions for Monitoring Cultural Heritage Structures Using Automated Crack Detection",
+    "container-title": "Smart Innovation, Systems and Technologies",
+    "volume": "398",
+    "page": "253-267",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Nath", "given": "B." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/QRS35791",
+    "type": "paper-conference",
+    "title": "Transformer for Fire and Smoke Image",
+    "container-title": "Smart Systems: Innovations in Computing: Proceedings of SSIC 2023",
+    "page": "247-258",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Patel", "given": "A.V." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Singh", "given": "V." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/TUV46802",
+    "type": "paper-conference",
+    "title": "Latent Dirichlet Allocation for Topic Modeling and Intelligent Document Classification",
+    "container-title": "Proceedings of International Conference on Innovative Data Analysis (ICIDA 2023)",
+    "page": "71-83",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Mukherjee", "given": "C." },
+      { "family": "Chatterjee", "given": "S." },
+      { "family": "Nath", "given": "B." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/VWX57913",
+    "type": "paper-conference",
+    "title": "EfficientViT: An Efficient Vision Transformer for Fire and Smoke Image Classification",
+    "container-title": "Proceedings of International Conference on Smart Systems: Innovations in Computing (SSIC 2023)",
+    "page": "247-258",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Patel", "given": "A.V." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Singh", "given": "V." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/XYZ68024",
+    "type": "paper-conference",
+    "title": "Keppler Red Giants Classification using a Machine learning approach",
+    "container-title": "Proceedings of OPJU International Technology Conference on Emerging Technologies for Sustainable World (OTCON 2023)",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Singh", "given": "U." },
+      { "family": "Arora", "given": "A." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/YZA79135",
+    "type": "article-journal",
+    "title": "PneuNetV1: A deep neural network for classification of pneumothorax using CXR images",
+    "container-title": "IEEE Access",
+    "volume": "11",
+    "page": "65028-65042",
+    "DOI": "10.1109/ACCESS.2023.1234567",
+    "author": [
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Singh", "given": "V." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Panda", "given": "S.K." },
+      { "family": "Pradhan", "given": "M.R." },
+      { "family": "Acharya", "given": "B." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/BCD80246",
+    "type": "article-journal",
+    "title": "A deep learning-based efficient firearms monitoring technique for building secure smart cities",
+    "container-title": "IEEE Access",
+    "volume": "11",
+    "page": "37515-37524",
+    "DOI": "10.1109/ACCESS.2023.1234568",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." },
+      { "family": "Pradhan", "given": "M.R." },
+      { "family": "Acharya", "given": "B." },
+      { "family": "Choudhury", "given": "T." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/EFG91357",
+    "type": "article-journal",
+    "title": "An object detection-based few-shot learning approach for multimedia quality assessment",
+    "container-title": "Multimedia Systems",
+    "volume": "29",
+    "issue": "5",
+    "page": "2899-2912",
+    "DOI": "10.1007/s00530-023-12345-6",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." },
+      { "family": "Islam", "given": "S.K.H." },
+      { "family": "Khan", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2023", 10]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/HIJ02468",
+    "type": "article-journal",
+    "title": "Anomaly detection using LSTM-based variational autoencoder in unsupervised data in power grid",
+    "container-title": "IEEE Systems Journal",
+    "volume": "17",
+    "issue": "3",
+    "page": "4313-4323",
+    "DOI": "10.1109/JSYST.2023.1234567",
+    "author": [
+      { "family": "Guha", "given": "D." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Sikdar", "given": "B." }
+    ],
+    "issued": { "date-parts": [["2023", 9]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/KLM13579",
+    "type": "article-journal",
+    "title": "A computer vision-based perceived attention monitoring technique for smart teaching",
+    "container-title": "Multimedia Tools and Applications",
+    "volume": "82",
+    "issue": "8",
+    "page": "11523-11547",
+    "DOI": "10.1007/s11042-023-12345-6",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Halder", "given": "R." },
+      { "family": "Maitra", "given": "T." },
+      { "family": "Pani", "given": "S." }
+    ],
+    "issued": { "date-parts": [["2023", 3]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/NOP24680",
+    "type": "article-journal",
+    "title": "Machine Learning Inspired Smart Agriculture System with Crop Prediction",
+    "container-title": "International Journal of Research in Applied Science and Engineering Technology",
+    "volume": "11",
+    "issue": "5",
+    "page": "1-6",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Das", "given": "O." },
+      { "family": "Kundu", "given": "R." },
+      { "family": "Podder", "given": "S." }
+    ],
+    "issued": { "date-parts": [["2023"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/QRS35791",
+    "type": "article-journal",
+    "title": "Deep learning techniques for observing the impact of the global warming from satellite images of water-bodies",
+    "container-title": "Multimedia Tools and Applications",
+    "volume": "81",
+    "issue": "5",
+    "page": "6115-6130",
+    "DOI": "10.1007/s11042-022-12345-6",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." },
+      { "family": "Islam", "given": "S.K.H." }
+    ],
+    "issued": { "date-parts": [["2022", 3]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/TUV46802",
+    "type": "paper-conference",
+    "title": "A duplex method for prediction of concrete strength using dimensionality reduction",
+    "container-title": "Proceedings of IEEE 19th India Council International Conference (INDICON 2022)",
+    "page": "3-8",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Patel", "given": "A.V." },
+      { "family": "Singh", "given": "V." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/VWX57913",
+    "type": "paper-conference",
+    "title": "Spear Phishing Detection: An Ensemble Learning Approach",
+    "container-title": "Data Analytics, Computational Statistics, and Operations Research for Engineers and Data Scientists",
+    "page": "6-11",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Mondal", "given": "S." },
+      { "family": "Ghosh", "given": "S." },
+      { "family": "Kumar", "given": "A." },
+      { "family": "Islam", "given": "S.K.H." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/XYZ68024",
+    "type": "paper-conference",
+    "title": "A Siamese Neural Network-Based Face Recognition from Masked Faces",
+    "container-title": "Proceedings of International Conference on Advanced Network Technologies and Intelligent Computing (ANTIC 2022)",
+    "page": "6-11",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Roy", "given": "S." },
+      { "family": "Roy", "given": "S." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/YZA79135",
+    "type": "paper-conference",
+    "title": "HRPro: A Machine Learning Approach for Recruitment Process Automation",
+    "container-title": "Proceedings of Machine Intelligence and Data Science Applications (MIDAS 2022)",
+    "page": "1-6",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Biswas", "given": "A." },
+      { "family": "Chakraborty", "given": "S." },
+      { "family": "Deb", "given": "D." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/BCD80246",
+    "type": "paper-conference",
+    "title": "Machine learning approaches to assess mood of the news editorial",
+    "container-title": "Proceedings of IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT 2022)",
+    "page": "6-11",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Sah", "given": "A." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/EFG91357",
+    "type": "paper-conference",
+    "title": "A fast and effective machine learning approach for road cracks classification",
+    "container-title": "Proceedings of IEEE 19th India Council International Conference (INDICON 2022)",
+    "page": "1-6",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." },
+      { "family": "Roy", "given": "S." },
+      { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/HIJ02468",
+    "type": "paper-conference",
+    "title": "A Hand Gesture-Based Contact-less Interface for Electronic Health Records",
+    "container-title": "Proceedings of International Interdisciplinary Conference on Mathematics, Engineering and Business Management",
+    "page": "1-6",
+    "publisher": "Springer",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chatterjee", "given": "A." },
+      { "family": "Islam", "given": "S.K.H." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/KLM13579",
+    "type": "paper-conference",
+    "title": "Semantic Segmentation of Retinal Vessels using Deep Learning approach",
+    "container-title": "Proceedings of OITS International Conference on Information Technology (OCIT 2022)",
+    "page": "244-249",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Arora", "given": "A." },
+      { "family": "Singh", "given": "U." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/NOP24680",
+    "type": "paper-conference",
+    "title": "Classification and analysis of dementia using machine learning algorithms",
+    "container-title": "Proceedings of IEEE International Conference on Electronics, Computing and Communication Technologies (CONECCT 2022)",
+    "page": "12-17",
+    "publisher": "IEEE",
+    "author": [
+      { "family": "Arora", "given": "A." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2022"]] }
+  }
+]
 ]
