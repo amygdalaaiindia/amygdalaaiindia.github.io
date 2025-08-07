@@ -15,6 +15,54 @@
   </div>
 </div>
 
+<script>
+  // Inject the notices array from Jekyll
+  const notices = [
+    {% for notice in site.data.notices.recent_notices %}
+      {
+        title: `{{ notice.title | escape }}`,
+        date: `{{ notice.date | date: "%b %d, %Y" }}`,
+        content: `{{ notice.content | markdownify | strip_newlines | replace: '"', '\"' | strip }}`,
+      }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ];
+
+  let currentIndex = 0;
+
+  function rotateNotice() {
+    const titleEl = document.getElementById('notice-title');
+    const dateEl = document.getElementById('notice-date');
+    const contentEl = document.getElementById('notice-content');
+    const noticeBox = document.getElementById('notice-rotator');
+
+    if (!notices.length) return;
+
+    // Fade out
+    noticeBox.classList.remove('fade-in');
+    noticeBox.classList.add('fade-out');
+
+    setTimeout(() => {
+      // Update content
+      titleEl.innerHTML = notices[currentIndex].title;
+      dateEl.innerHTML = notices[currentIndex].date;
+      contentEl.innerHTML = notices[currentIndex].content;
+
+      // Fade in
+      noticeBox.classList.remove('fade-out');
+      noticeBox.classList.add('fade-in');
+
+      // Advance index
+      currentIndex = (currentIndex + 1) % notices.length;
+    }, 500); // Time matches the fade-out duration
+  }
+
+  // Initial render
+  document.addEventListener("DOMContentLoaded", () => {
+    rotateNotice();
+    setInterval(rotateNotice, 5000); // every 5 seconds
+  });
+</script>
+
 <style>
   .notice-board {
     background: #ffffff;
@@ -72,7 +120,7 @@
   }
 
   .notice-content {
-    color: #1abc9c;
+    color: #34495e;
     line-height: 1.5;
     font-size: 0.95rem;
   }
