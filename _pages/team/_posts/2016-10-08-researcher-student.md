@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Sourov Roy Shuvo
-image: 
+image: Sourov Roy Shuvo.png
 role: Bachelor Student
 date: 2025-08-07
 permalink: 'team/Sourov-Roy-Shuvo'
