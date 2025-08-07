@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Rajesh Chowdhury
-image: 
+image: Rajesh Chowdhury
 role: Bachelor Student
 date: 2025-08-07
 permalink: 'team/Rajesh-Chowdhury'
