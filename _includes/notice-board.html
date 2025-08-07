@@ -10,7 +10,7 @@
         </div>
       {% endfor %}
     {% else %}
-      <p>DEBUG: Data not loaded. Found {{ site.data.notices | inspect }}</p>
+      <p class="debug">DEBUG: No notices found. Data: {{ site.data.notices | inspect }}</p>
     {% endif %}
   </div>
 </div>
