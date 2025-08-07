@@ -15,73 +15,27 @@
   </div>
 </div>
 
-<script>
-  // Inject the notices array from Jekyll
-  const notices = [
-    {% for notice in site.data.notices.recent_notices %}
-      {
-        title: `{{ notice.title | escape }}`,
-        date: `{{ notice.date | date: "%b %d, %Y" }}`,
-        content: `{{ notice.content | markdownify | strip_newlines | replace: '"', '\"' | strip }}`,
-      }{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ];
-
-  let currentIndex = 0;
-
-  function rotateNotice() {
-    const titleEl = document.getElementById('notice-title');
-    const dateEl = document.getElementById('notice-date');
-    const contentEl = document.getElementById('notice-content');
-    const noticeBox = document.getElementById('notice-rotator');
-
-    if (!notices.length) return;
-
-    // Fade out
-    noticeBox.classList.remove('fade-in');
-    noticeBox.classList.add('fade-out');
-
-    setTimeout(() => {
-      // Update content
-      titleEl.innerHTML = notices[currentIndex].title;
-      dateEl.innerHTML = notices[currentIndex].date;
-      contentEl.innerHTML = notices[currentIndex].content;
-
-      // Fade in
-      noticeBox.classList.remove('fade-out');
-      noticeBox.classList.add('fade-in');
-
-      // Advance index
-      currentIndex = (currentIndex + 1) % notices.length;
-    }, 500); // Time matches the fade-out duration
-  }
-
-  // Initial render
-  document.addEventListener("DOMContentLoaded", () => {
-    rotateNotice();
-    setInterval(rotateNotice, 5000); // every 5 seconds
-  });
-</script>
-
 <style>
   .notice-board {
-    background: #ffffff;
+    background: #2c3e50;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: 1px solid #2c3e50;
     padding: 0;
     max-width: 350px;
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ecf0f1;
   }
 
   .notice-header {
     background: #2c3e50;
-    color: white;
+    color: #ecf0f1;
     padding: 12px 16px;
     margin: 0;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid #34495e;
   }
 
   .notices-container {
@@ -90,8 +44,8 @@
   }
 
   .notice-item {
-    background: #f8f9fa;
-    border-left: 4px solid #3498db;
+    background: #34495e;
+    border-left: 4px solid #1abc9c;
     padding: 12px;
     border-radius: 0 4px 4px 0;
     transition: opacity 0.5s ease;
@@ -107,28 +61,51 @@
   }
 
   .notice-title {
-    color: #2c3e50;
+    color: #ecf0f1;
     margin: 0 0 4px 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .notice-date {
-    color: #7f8c8d;
+    color: #bdc3c7;
     display: block;
     margin-bottom: 8px;
-    font-size: 1.0rem;
+    font-size: 0.85rem;
   }
 
   .notice-content {
-    color: #34495e;
+    color: #ecf0f1;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  .notice-content p {
+    margin: 8px 0 0 0;
   }
 
   .no-notices {
-    color: #7f8c8d;
+    color: #bdc3c7;
     text-align: center;
     padding: 20px;
     font-style: italic;
+  }
+
+  /* Scrollbar styling */
+  .notices-container::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .notices-container::-webkit-scrollbar-track {
+    background: #2c3e50;
+    border-radius: 3px;
+  }
+
+  .notices-container::-webkit-scrollbar-thumb {
+    background: #7f8c8d;
+    border-radius: 3px;
+  }
+
+  .notices-container::-webkit-scrollbar-thumb:hover {
+    background: #95a5a6;
   }
 </style>
