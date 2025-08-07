@@ -1,4 +1,3 @@
-<!-- _includes/notice-board.html -->
 <div class="notice-board">
   <h3>📢 Announcements</h3>
   <div class="notices">
@@ -11,7 +10,7 @@
         </div>
       {% endfor %}
     {% else %}
-      <p>No current announcements.</p>
+      <p>DEBUG: Data not loaded. Found {{ site.data.notices | inspect }}</p>
     {% endif %}
   </div>
 </div>
