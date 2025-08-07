@@ -1,0 +1,23 @@
+/* assets/css/notices.css */
+.notice-board {
+  background: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 1rem;
+  margin-left: 2rem;
+  max-width: 300px;
+}
+
+.notice-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed #ddd;
+}
+
+.notice-item h4 {
+  color: #2c3e50;
+  margin-bottom: 0.2rem;
+}
+
+.notice-item small {
+  color: #7f8c8d;
+}
