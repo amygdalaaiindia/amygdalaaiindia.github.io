@@ -1,4 +1,4 @@
-
+---
 recent_notices:
   - title: "Sample Notice"
     date: 2024-06-20
@@ -7,3 +7,4 @@ recent_notices:
   - title: "Another Notice"
     date: 2024-06-21
     content: "More news coming soon!"
+---
