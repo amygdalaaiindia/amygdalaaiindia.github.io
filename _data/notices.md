@@ -1,11 +1,9 @@
----
-# _data/notices.md
+# Correct location: _data/notices.md
 recent_notices:
-  - title: "System Maintenance"
-    date: 2024-06-15
-    content: "The platform will be down for maintenance on June 20th, 2-4 AM UTC."
+  - title: "Sample Notice"
+    date: 2024-06-20
+    content: "This is a test announcement."
 
-  - title: "New Feature Released"
-    date: 2024-06-10
-    content: "Check out our new AI-powered search tool!"
----
+  - title: "Another Notice"
+    date: 2024-06-21
+    content: "More news coming soon!"
