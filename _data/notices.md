@@ -1,4 +1,4 @@
-# Correct location: _data/notices.md
+
 recent_notices:
   - title: "Sample Notice"
     date: 2024-06-20
