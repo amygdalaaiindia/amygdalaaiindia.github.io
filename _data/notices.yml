@@ -2,7 +2,11 @@ recent_notices:
   - title: "New Events"
     date: 2025-08-07
     content: "Fresh India-centric tech events will be announced soon."
-  
+    
+  - title: "Research Thrust"
+    date: 2025-07-15
+    content: "Biomedical Engineering, Safety and Surveillance, Cultural Heritage."
+    
   - title: "Welcome!"
     date: 2025-07-10
     content: "Now, AmygdalaAI is in India."
