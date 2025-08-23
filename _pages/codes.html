@@ -6,7 +6,7 @@ sitemap: false
 permalink: /codes/
 ---
 
-<h1>Codes</h1>
+<h1>Codes and Datasets</h1>
 
 <div class="codes-container">
   {% for code in site.data.codes %}
@@ -17,7 +17,8 @@ permalink: /codes/
       <p><a href="{{ code.github }}" target="_blank">🔗 GitHub Repo</a></p>
 
       {% if code.dataset %}
-        {% if code.dataset[0] %}
+        {% if code.dataset.first %}
+          <!-- Case: Multiple datasets (array) -->
           <h4>Datasets Used:</h4>
           <ul>
             {% for ds in code.dataset %}
@@ -25,13 +26,15 @@ permalink: /codes/
             {% endfor %}
           </ul>
         {% else %}
-          <p><strong>Dataset:</strong> 
-             <a href="{{ code.dataset.link }}" target="_blank">
-               {{ code.dataset.name }}
-             </a>
+          <!-- Case: Single dataset (object) -->
+          <p><strong>Dataset:</strong>
+            <a href="{{ code.dataset.link }}" target="_blank">
+              {{ code.dataset.name }}
+            </a>
           </p>
         {% endif %}
       {% else %}
+        <!-- Case: No dataset -->
         <p><em>No dataset specified</em></p>
       {% endif %}
     </div>
