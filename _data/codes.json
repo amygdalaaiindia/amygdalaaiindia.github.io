@@ -1,0 +1,32 @@
+[
+  {
+    "id": "code1",
+    "title": "UlcerShapeNet",
+    "description": "A novel scratch model to predict 3D wound masks from 2D ulcer images.",
+    "github": "https://github.com/amygdalaaiindia/UlcerShapeNet",
+    "dataset": {
+      "name": "Foot Ulcer Dataset",
+      "link": "https://example-dataset.org/foot-ulcer"
+    }
+  },
+  {
+    "id": "code2",
+    "title": "Lite-DETR++",
+    "description": "Lightweight Deformable Enhanced Transformer for real-time object detection with KD, QAT, and LoRA fine-tuning.",
+    "github": "https://github.com/amygdalaaiindia/Lite-DETRpp",
+    "dataset": {
+      "name": "COCO 2017",
+      "link": "https://cocodataset.org"
+    }
+  },
+  {
+    "id": "code3",
+    "title": "Automated High Demands Clips Extraction",
+    "description": "AI pipeline to automatically extract key demand clips from videos.",
+    "github": "https://github.com/amygdalaaiindia/ClipsExtractor",
+    "dataset": {
+      "name": "Custom Annotated Dataset",
+      "link": "https://example-dataset.org/clip-dataset"
+    }
+  }
+]
