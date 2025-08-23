@@ -14,11 +14,13 @@ permalink: /codes/
       <h2>{{ code.title }}</h2>
       <p>{{ code.description }}</p>
 
-      <p><a href="{{ code.github }}" target="_blank">🔗 GitHub Repo</a></p>
+      <p>
+        <a href="{{ code.github }}" target="_blank" class="repo-link">🔗 GitHub Repo</a>
+      </p>
 
       {% if code.dataset %}
         {% if code.dataset.first %}
-          <!-- Case: Multiple datasets (array) -->
+          <!-- Case: Multiple datasets -->
           <h4>Datasets Used:</h4>
           <ul>
             {% for ds in code.dataset %}
@@ -26,9 +28,9 @@ permalink: /codes/
             {% endfor %}
           </ul>
         {% else %}
-          <!-- Case: Single dataset (object) -->
-          <p><strong>Dataset:</strong>
-            <a href="{{ code.dataset.link }}" target="_blank">
+          <!-- Case: Single dataset (badge style) -->
+          <p><strong>Dataset:</strong> 
+            <a href="{{ code.dataset.link }}" target="_blank" class="dataset-badge">
               {{ code.dataset.name }}
             </a>
           </p>
