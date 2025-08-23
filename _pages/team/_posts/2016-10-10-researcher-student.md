@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Sudip Chakrabarty
-image: Sudip pic gray bg.jpg
+image: Sudip pic gray bg.jpeg
 role: Bachelor Student
 date: 2016-08-06
 permalink: 'team/Sudip-Chakrabarty'
