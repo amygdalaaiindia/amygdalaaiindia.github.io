@@ -1,32 +1,34 @@
 [
   {
     "id": "code1",
-    "title": "UlcerShapeNet",
-    "description": "A novel scratch model to predict 3D wound masks from 2D ulcer images.",
-    "github": "https://github.com/amygdalaaiindia/UlcerShapeNet",
+    "title": "Fuzzy-Discernibility-Matrix-v2.0.0",
+    "description": "The new Fuzzy Discernibility Matrix-based can also work with continuous value dataset: my_fuzzy_discrn_mat.py (for any number of features) e.g., Irish_Evaluation_notebook.ipynb demonstrates both the feature selection techniques on standard Iris dataset.",
+    "github": "https://github.com/cserajdeep/Fuzzy-Discernibility-Matrix-v2.0.0",
     "dataset": {
-      "name": "Foot Ulcer Dataset",
-      "link": "https://example-dataset.org/foot-ulcer"
+      "name": "Iris or any numerical dataset",
+      "link": "https://archive.ics.uci.edu/dataset/53/iris"
     }
   },
   {
     "id": "code2",
-    "title": "Lite-DETR++",
-    "description": "Lightweight Deformable Enhanced Transformer for real-time object detection with KD, QAT, and LoRA fine-tuning.",
-    "github": "https://github.com/amygdalaaiindia/Lite-DETRpp",
+    "title": "YOLOv13-Fine-Tune-on-Custom-Data",
+    "description": "YOLOv13 Fine-tune Object Detection.",
+    "github": "https://github.com/cserajdeep/YOLOv13-Fine-Tune-on-Custom-Data",
     "dataset": {
-      "name": "COCO 2017",
-      "link": "https://cocodataset.org"
+      "name": "Roboflow: BCCD-4",
+      "link": "https://public.roboflow.com/ds/45l5Q2DVlR?key=eZi13arZVV"
     }
   },
   {
     "id": "code3",
-    "title": "Automated High Demands Clips Extraction",
-    "description": "AI pipeline to automatically extract key demand clips from videos.",
-    "github": "https://github.com/amygdalaaiindia/ClipsExtractor",
+    "title": "LIQUID NEURAL NETWORK LNN",
+    "description": "The code is now much more robust, handles edge cases better, and should provide significantly better performance on both classification and regression tasks.",
+    "github": "https://github.com/cserajdeep/LIQUID-NEURAL-NETWORK-LNN",
     "dataset": {
-      "name": "Custom Annotated Dataset",
-      "link": "https://example-dataset.org/clip-dataset"
+      "name": "Boston Housing dataset for regression",
+      "link": "http://lib.stat.cmu.edu/datasets/boston",
+      "name": "Iris or any numerical dataset",
+      "link": "https://archive.ics.uci.edu/dataset/53/iris"
     }
   }
 ]
