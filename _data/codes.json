@@ -33,7 +33,7 @@
       "name": "Boston Housing dataset (regression)",
       "link": "http://lib.stat.cmu.edu/datasets/boston"
     }
-  },
+  }],
   {
     "id": "code4",
     "title": "PyCaret-and-Titanic-Dataset",
