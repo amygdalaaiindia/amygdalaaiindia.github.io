@@ -25,10 +25,8 @@
     "description": "The code is now much more robust, handles edge cases better, and should provide significantly better performance on both classification and regression tasks.",
     "github": "https://github.com/cserajdeep/LIQUID-NEURAL-NETWORK-LNN",
     "dataset": {
-      "name": "Boston Housing dataset for regression",
-      "link": "http://lib.stat.cmu.edu/datasets/boston",
-      "name": "Iris or any numerical dataset",
-      "link": "https://archive.ics.uci.edu/dataset/53/iris"
+      "name": "Iris dataset for Classification and Boston Housing dataset for regression",
+      "link": "https://archive.ics.uci.edu/dataset/53/iris", "http://lib.stat.cmu.edu/datasets/boston",
     }
   }
 ]
