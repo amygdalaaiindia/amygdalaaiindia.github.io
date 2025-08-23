@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Pappu Bishwas
-image: Pappu pic gray bg.png
+image: Pappu pic gray bg.jpg
 role: Bachelor Student
 date: 2025-08-23
 permalink: 'team/Pappu-Bishwas'
