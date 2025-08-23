@@ -25,14 +25,15 @@
     "description": "The code is now much more robust, handles edge cases better, and should provide significantly better performance on both classification and regression tasks.",
     "github": "https://github.com/cserajdeep/LIQUID-NEURAL-NETWORK-LNN",
     "dataset": [
-    {
-      "name": "Iris dataset (classification)",
-      "link": "https://archive.ics.uci.edu/dataset/53/iris"
-    },
-    {
-      "name": "Boston Housing dataset (regression)",
-      "link": "http://lib.stat.cmu.edu/datasets/boston"
-    }]
+      {
+        "name": "Iris dataset (classification)",
+        "link": "https://archive.ics.uci.edu/dataset/53/iris"
+      },
+      {
+        "name": "Boston Housing dataset (regression)",
+        "link": "http://lib.stat.cmu.edu/datasets/boston"
+      }
+    ]
   },
   {
     "id": "code4",
@@ -48,13 +49,13 @@
     "id": "code5",
     "title": "VIA-COCO Converter",
     "description": "This repo. is meant for those who find difficulty in dealing with formatting issues with annotations (Faster RCNN, Mask RCNN, etc.) e.g., VGG-Image-Annotator (VIA) JSON to COCO JSON, JSON to XML, and XML to TXT, vice versa.",
-    "github": "https://github.com/cserajdeep/VIA-COCO-Converter-Repo",
+    "github": "https://github.com/cserajdeep/VIA-COCO-Converter-Repo"
   },
   {
     "id": "code6",
     "title": "NASA-Image-Downloader",
     "description": "One can get a NASA API key at https://api.nasa.gov/. Then, save your key as an environment variable called NASA_API_KEY.",
-    "github": "https://github.com/cserajdeep/NASA-Image-Downloader",
+    "github": "https://github.com/cserajdeep/NASA-Image-Downloader"
   },
   {
     "id": "code7",
