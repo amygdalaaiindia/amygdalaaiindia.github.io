@@ -16,11 +16,19 @@ permalink: /codes/
       <span class="source"><strong>Code:</strong> <a href="{{ entry.github }}" target="_blank">{{ entry.github }}</a></span><br>
 
       {% if entry.dataset %}
-        <span class="dataset"><strong>Dataset:</strong> 
-          <a href="{{ entry.dataset.link }}" target="_blank">{{ entry.dataset.name }}</a>
-        </span><br>
+        {% if entry.dataset[0] %}
+          <strong>Datasets:</strong>
+          <ul>
+            {% for d in entry.dataset %}
+              <li><a href="{{ d.link }}" target="_blank">{{ d.name }}</a></li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <span class="dataset"><strong>Dataset:</strong> 
+            <a href="{{ entry.dataset.link }}" target="_blank">{{ entry.dataset.name }}</a>
+          </span><br>
+        {% endif %}
       {% endif %}
-
     </li>
   {% endfor %}
 </ul>
