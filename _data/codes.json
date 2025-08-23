@@ -28,5 +28,37 @@
       "name": "Iris dataset for Classification and Boston Housing dataset for regression",
       "link": "https://archive.ics.uci.edu/dataset/53/iris", "http://lib.stat.cmu.edu/datasets/boston",
     }
-  }
+  },
+  {
+    "id": "code4",
+    "title": "PyCaret-and-Titanic-Dataset",
+    "description": "The code is to provide a hands-on experience about EDA on any dataset using python library PyCaret.",
+    "github": "https://github.com/cserajdeep/PyCaret-and-Titanic-Dataset",
+    "dataset": {
+      "name": "Titanic dataset",
+      "link": "https://www.kaggle.com/datasets/yasserh/titanic-dataset"
+    }
+  },
+  {
+    "id": "code5",
+    "title": "VIA-COCO Converter",
+    "description": "This repo. is meant for those who find difficulty in dealing with formatting issues with annotations (Faster RCNN, Mask RCNN, etc.) e.g., VGG-Image-Annotator (VIA) JSON to COCO JSON, JSON to XML, and XML to TXT, vice versa.",
+    "github": "https://github.com/cserajdeep/VIA-COCO-Converter-Repo",
+  },
+  {
+    "id": "code6",
+    "title": "NASA-Image-Downloader",
+    "description": "One can get a NASA API key at https://api.nasa.gov/. Then, save your key as an environment variable called NASA_API_KEY.",
+    "github": "https://github.com/cserajdeep/NASA-Image-Downloader",
+  },
+  {
+    "id": "code7",
+    "title": "ELM-Python",
+    "description": "The code is python adaptation of Extreme Learning Machine.",
+    "github": "https://github.com/cserajdeep/ELM-Python-Iris",
+    "dataset": {
+      "name": "Iris dataset (work with any classification task)",
+      "link": "https://archive.ics.uci.edu/dataset/53/iris"
+    }
+  },
 ]
