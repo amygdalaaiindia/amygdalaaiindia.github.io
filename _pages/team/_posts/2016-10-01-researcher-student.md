@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: phd
 title: Trishaani Acharjee
 image: Trishaani Acharjee IEEE Access res.png
 role: PhD Student
