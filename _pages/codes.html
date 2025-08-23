@@ -11,15 +11,16 @@ permalink: /codes/
 <ul class="bibliography">
   {% for entry in site.data.codes %}
     <li>
-      <span class="title">{{ entry.title }}</span>
-      <br>
-      <span class="abstract">{{ entry.abstract }}</span>
-      <br>
-      <span class="source"><strong>Code:</strong> <a href="{{ entry.code }}" target="_blank">{{ entry.code }}</a></span>
-      <br>
-      <span class="dataset"><strong>Dataset:</strong> <a href="{{ entry.dataset.link }}" target="_blank">{{ entry.dataset.name }}</a></span>
-      <br>
-      <span class="year"><em>Released: {{ entry.issued.date-parts[0][0] }}</em></span>
+      <span class="title">{{ entry.title }}</span><br>
+      <span class="abstract">{{ entry.description }}</span><br>
+      <span class="source"><strong>Code:</strong> <a href="{{ entry.github }}" target="_blank">{{ entry.github }}</a></span><br>
+
+      {% if entry.dataset %}
+        <span class="dataset"><strong>Dataset:</strong> 
+          <a href="{{ entry.dataset.link }}" target="_blank">{{ entry.dataset.name }}</a>
+        </span><br>
+      {% endif %}
+
     </li>
   {% endfor %}
 </ul>
