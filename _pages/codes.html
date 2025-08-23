@@ -1,0 +1,25 @@
+---
+title: "Codes"
+layout: default
+excerpt: "AmygdalaAI-India Lab -- Publications."
+sitemap: false
+permalink: /codes/
+---
+
+<h2>Codes & Datasets</h2>
+
+<ul class="bibliography">
+  {% for entry in site.data.codes %}
+    <li>
+      <span class="title">{{ entry.title }}</span>
+      <br>
+      <span class="abstract">{{ entry.abstract }}</span>
+      <br>
+      <span class="source"><strong>Code:</strong> <a href="{{ entry.code }}" target="_blank">{{ entry.code }}</a></span>
+      <br>
+      <span class="dataset"><strong>Dataset:</strong> <a href="{{ entry.dataset.link }}" target="_blank">{{ entry.dataset.name }}</a></span>
+      <br>
+      <span class="year"><em>Released: {{ entry.issued.date-parts[0][0] }}</em></span>
+    </li>
+  {% endfor %}
+</ul>
