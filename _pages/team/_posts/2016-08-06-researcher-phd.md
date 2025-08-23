@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: phd
 title: Balaram Singh
 image: Balaram pic gray bg.png
 role: PhD Student
