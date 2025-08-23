@@ -32,8 +32,8 @@
     {
       "name": "Boston Housing dataset (regression)",
       "link": "http://lib.stat.cmu.edu/datasets/boston"
-    }
-  }],
+    }]
+  },
   {
     "id": "code4",
     "title": "PyCaret-and-Titanic-Dataset",
@@ -65,5 +65,5 @@
       "name": "Iris dataset (work with any classification task)",
       "link": "https://archive.ics.uci.edu/dataset/53/iris"
     }
-  },
+  }
 ]
