@@ -1,0 +1,81 @@
+.codes-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+.codes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.code-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.code-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.code-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+  color: #333;
+}
+
+.code-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.code-card ul {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.code-card li {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.repo-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  background: #24292e;
+  color: #fff !important;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.repo-link:hover {
+  background: #0366d6;
+}
+
+/* Badge style for single dataset */
+.dataset-badge {
+  display: inline-block;
+  background: #e0f2ff;
+  color: #0366d6;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.dataset-badge:hover {
+  background: #0366d6;
+  color: #fff;
+}
