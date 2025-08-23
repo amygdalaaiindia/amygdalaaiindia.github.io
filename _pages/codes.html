@@ -6,29 +6,34 @@ sitemap: false
 permalink: /codes/
 ---
 
-<h2>Codes & Datasets</h2>
+<h1>Codes</h1>
 
-<ul class="bibliography">
-  {% for entry in site.data.codes %}
-    <li>
-      <span class="title">{{ entry.title }}</span><br>
-      <span class="abstract">{{ entry.description }}</span><br>
-      <span class="source"><strong>Code:</strong> <a href="{{ entry.github }}" target="_blank">{{ entry.github }}</a></span><br>
+<div class="codes-container">
+  {% for code in site.data.codes %}
+    <div class="code-card">
+      <h2>{{ code.title }}</h2>
+      <p>{{ code.description }}</p>
 
-      {% if entry.dataset %}
-        {% if entry.dataset[0] %}
-          <strong>Datasets:</strong>
+      <p><a href="{{ code.github }}" target="_blank">🔗 GitHub Repo</a></p>
+
+      {% if code.dataset %}
+        {% if code.dataset[0] %}
+          <h4>Datasets Used:</h4>
           <ul>
-            {% for d in entry.dataset %}
-              <li><a href="{{ d.link }}" target="_blank">{{ d.name }}</a></li>
+            {% for ds in code.dataset %}
+              <li><a href="{{ ds.link }}" target="_blank">{{ ds.name }}</a></li>
             {% endfor %}
           </ul>
         {% else %}
-          <span class="dataset"><strong>Dataset:</strong> 
-            <a href="{{ entry.dataset.link }}" target="_blank">{{ entry.dataset.name }}</a>
-          </span><br>
+          <p><strong>Dataset:</strong> 
+             <a href="{{ code.dataset.link }}" target="_blank">
+               {{ code.dataset.name }}
+             </a>
+          </p>
         {% endif %}
+      {% else %}
+        <p><em>No dataset specified</em></p>
       {% endif %}
-    </li>
+    </div>
   {% endfor %}
-</ul>
+</div>
