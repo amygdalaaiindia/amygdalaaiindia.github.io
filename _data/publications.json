@@ -182,5 +182,134 @@
       { "family": "Chatterjee", "given": "A." }
     ],
     "issued": { "date-parts": [["2024"]] }
-  }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE202168",
+    "type": "article-journal",
+    "title": "Real-Time Speech Emotion Analysis for Smart Home Assistants",
+    "container-title": "IEEE Transactions on Consumer Electronics",
+    "volume": "67",
+    "issue": "1",
+    "page": "68-76",
+    "publisher": "IEEE",
+    "URL": "https://doi.org/10.1109/TCE.2021.3056421",
+    "author": [
+        { "family": "Chatterjee", "given": "Rajdeep" },
+        { "family": "Mazumdar", "given": "Saptarshi" },
+        { "family": "Sherratt", "given": "R. Simon" },
+        { "family": "Halder", "given": "Rohit" },
+        { "family": "Maitra", "given": "Tanmoy" },
+        { "family": "Giri", "given": "Debasish" }
+    ],
+    "issued": { "date-parts": [["2021", 2]] }
+},
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2019419",
+    "type": "article-journal",
+    "title": "A novel machine learning based feature selection for motor imagery EEG signal classification in Internet of medical things environment",
+    "container-title": "Future Generation Computer Systems",
+    "volume": "98",
+    "page": "419-434",
+    "publisher": "North-Holland",
+    "URL": "https://doi.org/10.1016/j.future.2019.01.054",
+    "author": [
+        { "family": "Chatterjee", "given": "Rajdeep" },
+        { "family": "Maitra", "given": "Tanmoy" },
+        { "family": "Islam", "given": "S.K. Hafizul" },
+        { "family": "Hassan", "given": "Mohammad Mehedi" },
+        { "family": "Alamri", "given": "Atif" },
+        { "family": "Fortino", "given": "Giancarlo" }
+    ],
+    "issued": { "date-parts": [["2019", 9, 1]] }
+},
+  {
+    "id": "http://zotero.org/groups/2386072/items/HALDER2020201",
+    "type": "article-journal",
+    "title": "CNN-BiLSTM model for violence detection in smart surveillance",
+    "container-title": "SN Computer Science",
+    "volume": "1",
+    "issue": "4",
+    "page": "201",
+    "publisher": "Springer Singapore",
+    "URL": "https://doi.org/10.1007/s42979-020-00209-9",
+    "author": [
+        { "family": "Halder", "given": "Rohit" },
+        { "family": "Chatterjee", "given": "Rajdeep" }
+    ],
+    "issued": { "date-parts": [["2020", 7]] }
+},
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2017126",
+    "type": "paper-conference",
+    "title": "An overview of the emerging technology: Blockchain",
+    "container-title": "2017 3rd International Conference on Computational Intelligence and Networks (CINE)",
+    "publisher": "IEEE",
+    "page": "126-127",
+    "URL": "https://ieeexplore.ieee.org/document/8279972",
+    "author": [
+        { "family": "Chatterjee", "given": "Rishav" },
+        { "family": "Chatterjee", "given": "Rajdeep" }
+    ],
+    "issued": { "date-parts": [["2017", 10, 28]] }
+},
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE201684",
+    "type": "paper-conference",
+    "title": "EEG based Motor Imagery Classification using SVM and MLP",
+    "container-title": "2nd International Conference on Computational Intelligence and Networks",
+    "publisher": "IEEE Computer Society (CPS)",
+    "page": "84-85",
+    "author": [
+        { "family": "Chatterjee", "given": "Rajdeep" },
+        { "family": "Bandyopadhyay", "given": "Tathagata" }
+    ],
+    "issued": { "date-parts": [["2016", 1]] }
+},
+  {
+    "id": "http://zotero.org/groups/2386072/items/GUHA20234313",
+    "type": "article-journal",
+    "title": "Anomaly detection using LSTM-based variational autoencoder in unsupervised data in power grid",
+    "container-title": "IEEE Systems Journal",
+    "volume": "17",
+    "issue": "3",
+    "page": "4313-4323",
+    "publisher": "IEEE",
+    "URL": "https://doi.org/10.1109/JSYST.2023.3268084",
+    "author": [
+        { "family": "Guha", "given": "Dibyajyoti" },
+        { "family": "Chatterjee", "given": "Rajdeep" },
+        { "family": "Sikdar", "given": "Biplab" }
+    ],
+    "issued": { "date-parts": [["2023", 4, 27]] }
+},
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2017131",
+    "type": "paper-conference",
+    "title": "Dimensionality reduction of EEG signal using fuzzy discernibility matrix",
+    "container-title": "2017 10th International Conference on Human System Interactions (HSI)",
+    "publisher": "IEEE",
+    "page": "131-136",
+    "URL": "https://ieeexplore.ieee.org/document/8005009",
+    "author": [
+        { "family": "Chatterjee", "given": "Rajdeep" },
+        { "family": "Bandyopadhyay", "given": "Tathagata" },
+        { "family": "Sanyal", "given": "Debarshi Kumar" },
+        { "family": "Guha", "given": "Dibyajyoti" }
+    ],
+    "issued": { "date-parts": [["2017", 7, 17]] }
+},
+  {
+"id": "http://zotero.org/groups/2386072/items/CHATTERJEE2016TENCON",
+"type": "paper-conference",
+"title": "Discernibility Matrix based Dimensionality Reduction for EEG Signal",
+"container-title": "Proceedings of 36th IEEE TENCON SINGAPORE",
+"publisher": "IEEEXplore",
+"author": [
+{ "family": "Chatterjee", "given": "Rajdeep" },
+{ "family": "Guha", "given": "Dibyajyoti" },
+{ "family": "Sanyal", "given": "Debarshi Kumar", "non-dropping-particle": "Sanyal" },
+{ "family": "Mohanty", "given": "Sachi Nandan" }
+],
+"issued": { "date-parts": [["2016", 11]] }
+}
 ]
