@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Ritabrata Roy Choudhury
-image: Ritabrata-Roy-Choudhury.jpeg
+image: RitabrataRoyChoudhury.jpeg
 role: Bachelor Student
 date: 2025-09-16
 permalink: 'team/Ritabrata-Roy-Choudhury'
