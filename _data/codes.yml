@@ -65,3 +65,30 @@
   dataset:
     name: "Iris dataset (work with any classification task)"
     link: "https://archive.ics.uci.edu/dataset/53/iris"
+
+- id: code8
+  title: "Drones in Defence: Military Target Surveillance and Tracking"
+  description: >
+    This study presents a drone-captured video dataset for military surveillance and evaluates YOLOv5, YOLOv8, and YOLOv11 models with their variants to balance accuracy and efficiency. The results show that YOLOv11s combined with ByteTrack achieves the best performance for real-time detection and tracking of enemy assets, advancing autonomous military surveillance.
+  github: "https://github.com/Sudip-329/Drones-in-Defense-Military-Target-Surveillance-and-Tracking"
+  dataset:
+    name: "KIIT-MiTA"
+    link: "https://kiit-mita.netlify.app/"
+
+- id: code9
+  title: "ClipXpert: Automated Clip Mining from Video Data for High-Demand Content"
+  description: >
+ClipXpert is an automated system that extracts relevant YouTube clips using keywords, frequent word/comment analysis, and transcription models, while dynamically storing new content for future use. It further identifies key linguistic features and applies sentiment analysis on comments to generate focused highlights, improving efficiency and accuracy in targeted video content extraction.
+  github: "https://github.com/Sudip-329/ClipXpert-Automated-Clip-Mining"
+  dataset:
+    name: ""
+    link: ""
+
+- id: code10
+  title: "South Asian Sounds : Audio Classification"
+  description: >
+   Sound classification plays a vital role in urban planning and noise monitoring. Leveraging MFCCs and a 1D-CNN, we classify sounds from Bangladesh, India, and the UrbanSounds8k dataset. Our model demonstrates high accuracy, highlighting the effectiveness of combining MFCCs with 1D-CNNs for urban sound classification.
+  github: "https://github.com/Sudip-329/South-Asian-Sounds_Audio-Classification"
+  dataset:
+      name: "SAS-KIIT"
+      link: "https://sas-kiit.netlify.app/"
