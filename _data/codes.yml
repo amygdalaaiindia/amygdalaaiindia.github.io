@@ -80,9 +80,6 @@
   description: >
     ClipXpert is an automated system that extracts relevant YouTube clips using keywords, frequent word/comment analysis, and transcription models, while dynamically storing new content for future use. It further identifies key linguistic features and applies sentiment analysis on comments to generate focused highlights, improving efficiency and accuracy in targeted video content extraction.
   github: "https://github.com/Sudip-329/ClipXpert-Automated-Clip-Mining"
-  dataset:
-    name: ""
-    link: ""
 
 - id: code10
   title: "South Asian Sounds: Audio Classification"
