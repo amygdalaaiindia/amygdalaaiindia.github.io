@@ -92,3 +92,13 @@
   dataset:
     name: "SAS-KIIT"
     link: "https://sas-kiit.netlify.app/"
+
+- id: code11
+  title: "Stocks Miner"
+  description: >
+    **Stocks Miner** is a Python tool for financial data analysis. It uses libraries such as yfinance, pandas, matplotlib, seaborn, tqdm, scikit-learn, ripser, and persim to process stock market data. The package exposes a CLI with the following capabilities:
+    - Analyze market indices (SENSEX, NIFTY) with metrics and visualizations (CAGR, daily returns, correlations, price trends, heatmaps).
+    - Analyze NSE stocks with company-wise metrics and top-performer visualizations.
+    - Analyze randomly selected stocks or sectors and rank by CAGR.
+    - Detect market crashes using Topological Data Analysis (TDA) on stock time series via Takens' embedding, persistent homology, and bottleneck distances.
+  github: "https://github.com/Soumyadippallab/Stocks_Miner"
