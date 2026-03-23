@@ -1,5 +1,9 @@
 recent_notices:
-  - title: "New Events"
+  - title: "Tech4Change-2026"
+    date: 2026-03-14
+    content: "Tech4Change has been concluded. It is a project innovation contest (a sister event of the 7th CINE conference) aligned with Vikshit Bharat 2047."
+    
+  - title: "Stocks Miner!"
     date: 2025-10-31
     content: "Check out our new [Stocks Miner](https://github.com/Soumyadippallab/Stocks_Miner) repo for low-code financial analysis."
     
