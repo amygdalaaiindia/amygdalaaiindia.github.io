@@ -1,19 +1,246 @@
 [
   {
-    "id": "http://zotero.org/groups/2386072/items/PAYNE2025",
+    "id": "http://zotero.org/groups/2386072/items/CHAKRABARTY2026",
     "type": "paper-conference",
-    "title": "Beyond Microscope: Advances in Technology for Detection of Cervical Cancer",
-    "container-title": "Lecture Notes in Computer Science",
-    "volume": "15614 LNCS",
-    "page": "180-193",
-    "publisher": "Springer",
-    "URL": "https://link.springer.com/chapter/10.1007/978-3-031-12345-6_12",
+    "title": "Soundscapes in Spectrograms: Pioneering Multilabel Classification for South Asian Sounds",
+    "container-title": "arXiv preprint arXiv:2603.08154",
+    "page": "",
+    "publisher": "",
+    "URL": "https://arxiv.org/abs/2603.08154",
     "author": [
-      { "family": "Payne", "given": "P." },
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Bishwas", "given": "P." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Bandyopadhyay", "given": "T." },
+      { "family": "Biswas", "given": "D." }
+    ],
+    "issued": { "date-parts": [["2026"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2026",
+    "type": "paper-conference",
+    "title": "Explainable Continuous-Time Mask Refinement with Local Self-Similarity Priors for Medical Image Segmentation",
+    "container-title": "arXiv preprint arXiv:2603.00459",
+    "page": "",
+    "publisher": "",
+    "URL": "https://arxiv.org/abs/2603.00459",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Acharjee", "given": "T." }
+    ],
+    "issued": { "date-parts": [["2026"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2025A",
+    "type": "paper-conference",
+    "title": "AUDRON: A Deep Learning Framework with Fused Acoustic Signatures for Drone Type Recognition",
+    "container-title": "arXiv preprint arXiv:2512.20407",
+    "page": "",
+    "publisher": "IEEE",
+    "URL": "https://ieeexplore.ieee.org/document/11392998",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Acharjee", "given": "T." },
+      { "family": "Mishra", "given": "D." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHAKRABARTY2025",
+    "type": "paper-conference",
+    "title": "Explainable Transformer-CNN Fusion for Noise-Robust Speech Emotion Recognition",
+    "container-title": "arXiv preprint arXiv:2512.18298",
+    "page": "",
+    "publisher": "https://arxiv.org/abs/2512.18298",
+    "URL": "https://arxiv.org/abs/2512.18298",
+    "author": [
+      { "family": "Chakrabarty", "given": "S." },
+      { "family": "Bishwas", "given": "P." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/DUARI2025",
+    "type": "paper-conference",
+    "title": "Leveraging Topological Data Analysis for Detecting Stock Market Crashes",
+    "container-title": "2025 OITS International Conference on Information Technology (OCIT)",
+    "page": "1002-1007",
+    "publisher": "IEEE",
+    "URL": "https://ieeexplore.ieee.org/document/11400357",
+    "author": [
+      { "family": "Duari", "given": "G." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Das", "given": "S." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/SINGH2025",
+    "type": "paper-conference",
+    "title": "ILT: Advancing Indoor Localization with Transformer Learning on Wi-Fi RSSI Data",
+    "container-title": "2025 OITS International Conference on Information Technology (OCIT)",
+    "page": "1013-1018",
+    "publisher": "IEEE",
+    "URL": "https://ieeexplore.ieee.org/abstract/document/11400239",
+    "author": [
+      { "family": "Singh", "given": "B." },
+      { "family": "Chatterjee", "given": "R." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/ROY2025",
+    "type": "article-journal",
+    "title": "A privacy-preserving, on-board satellite image classification technique incorporating homomorphic encryption and transfer learning",
+    "container-title": "Frontiers in Remote Sensing",
+    "volume": "6",
+    "issue": "Image Analysis and Classification",
+    "page": "1-13",
+    "publisher": "Frontiers",
+    "URL": "https://www.frontiersin.org/journals/remote-sensing/articles/10.3389/frsen.2025.1678882/full",
+    "author": [
+      { "family": "Roy", "given": "A." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Jha", "given": "A.K.V." },
+      { "family": "Appasani", "given": "B." },
+      { "family": "Bizon", "given": "N.M." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/MONDAL2025A",
+    "type": "article-journal",
+    "title": "Cervical cancer classification using a novel hybrid approach",
+    "container-title": "Frontiers in Oncology",
+    "volume": "15",
+    "issue": "Cancer Imaging and Image-directed Interv",
+    "page": "1-15",
+    "publisher": "Frontiers",
+    "URL": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1703772/full",
+    "author": [
+      { "family": "Mondal", "given": "J." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Sahni", "given": "M." },
+      { "family": "León-Castro", "given": "E." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHAKRABORTY2025",
+    "type": "article-journal",
+    "title": "A scalable framework for evaluating multiple language models through cross-domain generation and hallucination detection",
+    "container-title": "Scientific Reports",
+    "volume": "15",
+    "issue": "1",
+    "page": "29981",
+    "publisher": "Nature",
+    "URL": "https://www.nature.com/articles/s41598-025-15203-5",
+    "author": [
+      { "family": "Chakraborty", "given": "S." },
+      { "family": "Chowdhury", "given": "R." },
+      { "family": "Shuvo", "given": "S.R." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Roy", "given": "S." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHAKRABORTY2025A",
+    "type": "paper-conference",
+    "title": "LPM: 3D Lungs Reconstruction using Lung Parametric Model",
+    "container-title": "Authorea Preprints",
+    "page": "",
+    "publisher": "",
+    "URL": "https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.175373018.81454494",
+    "author": [
+      { "family": "Chakraborty", "given": "S." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Bandyopadhyay", "given": "T." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/CHATTERJEE2025B",
+    "type": "article-journal",
+    "title": "Temporal-aware transformer approach for violence activity recognition",
+    "container-title": "IEEE Access",
+    "volume": "",
+    "issue": "",
+    "page": "https://ieeexplore.ieee.org/document/10965696",
+    "publisher": "IEEE",
+    "URL": "",
+    "author": [
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Choudhury", "given": "R.R." },
+      { "family": "Gourisaria", "given": "M.K." },
+      { "family": "Banerjee", "given": "S." },
+      { "family": "Dey", "given": "S." },
+      { "family": "Sahni", "given": "M." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/ROMOULD2025",
+    "type": "paper-conference",
+    "title": "EfficientNetB0: Comparing Transfer Learning and Scratch Training on Benchmark Datasets",
+    "container-title": "2025 Seventh International Conference on Computational Intelligence",
+    "page": "",
+    "publisher": "IEEE",
+    "URL": "https://ieeexplore.ieee.org/document/11088039",
+    "author": [
       { "family": "Romould", "given": "R.V." },
+      { "family": "Payne", "given": "P." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/MONDAL2025B",
+    "type": "paper-conference",
+    "title": "Automatic Classification of Cervical Dysplasia Using Deep Neural Network",
+    "container-title": "International Conference on Smart Computing and Informatics",
+    "page": "446-460",
+    "publisher": "Springer",
+    "URL": "https://link.springer.com/chapter/10.1007/978-3-032-08246-6_36",
+    "author": [
       { "family": "Mondal", "given": "J." },
       { "family": "Chatterjee", "given": "R." },
       { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/MONDAL2025C",
+    "type": "paper-conference",
+    "title": "Vision Transformer based approach for accurately detecting cervical cancer",
+    "container-title": "2025 5th International Conference on Expert Clouds and Applications (ICOECA)",
+    "page": "",
+    "publisher": "IEEE",
+    "URL": "https://ieeexplore.ieee.org/document/11113899",
+    "author": [
+      { "family": "Mondal", "given": "J." },
+      { "family": "Chatterjee", "given": "R." },
+      { "family": "Gourisaria", "given": "M.K." }
+    ],
+    "issued": { "date-parts": [["2025"]] }
+  },
+  {
+    "id": "http://zotero.org/groups/2386072/items/ACHARJEE2025",
+    "type": "paper-conference",
+    "title": "Wound Image Classification with Vision Transformer and Feature Embeddings",
+    "container-title": "2025 6th International Conference on Recent Advances in Information",
+    "page": "",
+    "publisher": "IEEE",
+    "URL": "https://ieeexplore.ieee.org/abstract/document/11088955",
+    "author": [
+      { "family": "Acharjee", "given": "T." },
+      { "family": "Chatterjee", "given": "R." }
     ],
     "issued": { "date-parts": [["2025"]] }
   },
@@ -63,25 +290,6 @@
       { "family": "Biswas", "given": "S." }
     ],
     "issued": { "date-parts": [["2024"]] }
-  },
-  {
-    "id": "http://zotero.org/groups/2386072/items/MUKHERJEE2024",
-    "type": "article",
-    "title": "An Intelligent CDS (Clinical Decision Support) Framework using Machine Learning Algorithms for Parkinson Disease Detection",
-    "container-title": "Preprint Research Square",
-    "page": "1-20",
-    "URL": "https://www.researchsquare.com/article/rs-1234567/v1",
-    "author": [
-      { "family": "Mukherjee", "given": "R." },
-      { "family": "Dwivedi", "given": "R." },
-      { "family": "Jana", "given": "N.D." },
-      { "family": "Chatterjee", "given": "R." },
-      { "family": "Ghosh", "given": "S." },
-      { "family": "Dey", "given": "A." },
-      { "family": "Nath", "given": "D." },
-      { "family": "Bandyopadhyay", "given": "A." }
-    ],
-    "issued": { "date-parts": [["2024", 11]] }
   },
   {
     "id": "http://zotero.org/groups/2386072/items/KUMAR2024",
