@@ -1,3 +1,22 @@
+- date: 2025-12-25
+  title: "Explainable Transformer-CNN Fusion for Noise-Robust Speech Emotion Recognition"
+  authors: "Sudip Chakrabarty, Pappu Bishwas, Rajdeep Chatterjee"
+  tags:
+    - research
+    - publication
+    - speech emotion recognition
+    - explainable ai
+  content: |
+    Speech Emotion Recognition (SER) systems often suffer substantial performance degradation when exposed to unpredictable acoustic interference in real-world environments. In addition, the limited interpretability of deep neural architectures restricts their deployment in trust-sensitive applications.
+
+    This paper proposes a Hybrid Transformer-CNN framework that combines the contextual sequence modeling capability of wav2vec 2.0 with the spectral robustness of one-dimensional Convolutional Neural Networks. The dual-stream architecture simultaneously processes raw speech waveforms to capture long-range temporal dependencies while extracting complementary handcrafted acoustic descriptors, including MFCC, Zero Crossing Rate (ZCR), and Root Mean Square Energy (RMSE), through a custom Attentive Temporal Pooling mechanism.
+
+    Extensive validation was conducted across four benchmark emotional speech datasets: RAVDESS, TESS, SAVEE, and CREMA-D. To rigorously assess environmental robustness, the model was additionally evaluated under non-stationary acoustic interference using real-world noise profiles collected from the SAS-KIIT dataset.
+
+    Experimental results demonstrate strong generalization capability and state-of-the-art classification accuracy across all evaluated datasets, consistently outperforming single-branch baselines under realistic noisy conditions.
+
+    To address model interpretability, SHAP and Score-CAM were integrated into the evaluation framework. These explainability tools provide fine-grained visual evidence showing how the proposed architecture dynamically reallocates attention between temporal and spectral representations, thereby maintaining reliable emotion discrimination under complex environmental noise.
+
 - date: 2019-05-09
   title: "A scalable framework for evaluating multiple language models through cross-domain generation and hallucination detection"
   authors: "Sorup Chakraborty, Rajesh Chowdhury, Sourov Roy Shuvo, Rajdeep Chatterjee, Satyabrata Roy"
