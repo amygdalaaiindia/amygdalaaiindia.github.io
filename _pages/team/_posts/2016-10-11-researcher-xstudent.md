@@ -3,7 +3,7 @@ layout: member
 category: xstudent
 title: Pappu Bishwas
 image: Pappu pic gray bg.jpg
-role: Bachelor Student
+role: Alumnus (Bachelor Student)
 date: 2025-08-23
 permalink: 'team/Pappu-Bishwas'
 social:
