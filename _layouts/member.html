@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="col-sm-12">
     <div class=row>
         <nav aria-label="breadcrumb">
@@ -17,11 +16,9 @@ layout: default
         <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ page.image }}"
              class="img-circle"
              style="filter: grayscale(100%); max-width: 200px;"/>
-
         <!-- Name & Role -->
         <h1>{{ page.title }}</h1>
         <h3>{{ page.role }}</h3>
-
         <!-- Social -->
         <ul class="list-inline list-unstyled">
             <!-- Twitter -->
@@ -41,20 +38,19 @@ layout: default
                 <li><a target="blank" href="{{page.social.website}}"><i class="fas fa-globe"></i></a></li>
             {% endif %}
             <!-- Google Scholar -->
-            {% if page.social.google-scholar %}
-                <li><a target="blank" href="{{page.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+            {% if page.social["google-scholar"] %}
+                <li><a target="blank" href="{{page.social['google-scholar']}}"><i class="fab fa-google"></i></a></li>
             {% endif %}
             <!-- Orcid -->
             {% if page.social.orcid %}
                 <li><a target="blank" href="{{page.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
             {% endif %}
             <!-- Research Gate -->
-            {% if page.social.research-gate %}
-                <li><a target="blank" href="{{page.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+            {% if page.social["research-gate"] %}
+                <li><a target="blank" href="{{page.social['research-gate']}}"><i class="fab fa-researchgate"></i></a></li>
             {% endif %}
         </ul>
     </div>
-
     <!-- Education -->
     <div class="row">
         <h3>Education</h3>
@@ -64,7 +60,6 @@ layout: default
             {% endfor %}
         </ul>
     </div>
-
     <!-- Bio -->
     <div class="row">
         <h3>Bio</h3>
