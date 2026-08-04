@@ -11,7 +11,6 @@ social:
     linkedin: https://www.linkedin.com/in/tathagata-bandyopadhyay/
     google-scholar: https://scholar.google.com/citations?user=GuH4taUAAAAJ&hl=en
     github: https://github.com/tatban
-    orcid: https://orcid.org
     research-gate: https://www.researchgate.net/profile/Tathagata-Bandyopadhyay
 education:
  - M.Sc. in Informatics, Technical University of Munich (TUM), Germany
