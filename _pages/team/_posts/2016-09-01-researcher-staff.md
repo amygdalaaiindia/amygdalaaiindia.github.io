@@ -16,7 +16,7 @@ social:
 education:
  - Ph.D. in Computer Science and Engineering, KIIT-DU
  - M.Tech. in Computer Science and Engineering, KIIT-DU
- - B.E. in in Computer Science and Engineering, The University of Burdwan
+ - B.E. in Computer Science and Engineering, The University of Burdwan
 ---
 
 He received his B.E. in Computer Science and Engineering degree from The University of Burdwan in 2008, and both the
