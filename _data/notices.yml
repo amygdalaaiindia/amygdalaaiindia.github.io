@@ -1,4 +1,8 @@
 recent_notices:
+  - title: "Reference-Verifier-2026"
+    date: 2026-06-17
+    content: "Reference Verifier that cross-checks references against multiple independent scholarly databases and identifies potentially fake, incorrect, or inconsistent citations. Check-My-Reference: https://reference-verifier.onrender.com/."
+  
   - title: "Tech4Change-2026"
     date: 2026-03-14
     content: "Tech4Change has been concluded. It is a project innovation contest (a sister event of the 7th CINE conference) aligned with Vikshit Bharat 2047."
