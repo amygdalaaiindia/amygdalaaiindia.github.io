@@ -1,6 +1,6 @@
 ---
 layout: member
-category: alumni
+category: xstudent
 title: Tathagata Bandyopadhyay
 image: Tathagata Bandyopadhyay Pic.jpg
 role: Alumnus (Bachelor Student)
