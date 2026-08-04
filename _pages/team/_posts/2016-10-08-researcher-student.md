@@ -14,7 +14,7 @@ social:
     orcid: https://orcid.org/my-orcid?orcid=0009-0007-2549-7585
     research-gate: https://www.researchgate.net/profile/Sourov-Shuvo-2?ev=hdr_xprf
 education:
- - B.Tech in Computer Science and Engineering, KIIT-DU
+ - B.Tech in Computer Science and Engineering, KIIT-DU, India
 ---
 
 Sourov Roy Shuvo completed his Bachelor's degree in Computer Science and Engineering in 2025. His research interests include artificial intelligence, machine learning, computer vision, natural language processing (NLP), and multi-modal learning systems. He has worked on projects involving object detection as well as natural language processing, reflecting a strong interest in applying intelligent algorithms to real-world domains such as surveillance, autonomous systems, environmental sensing, and language understanding. Sourov actively engages with the research community through platforms like Google Scholar and ResearchGate and maintains a personal portfolio showcasing his academic contributions. He is currently seeking Master's opportunities to further specialize in artificial intelligence, machine learning, and data science, with a focus on real-world visual perception, natural language understanding, and intelligent decision-making systems.
