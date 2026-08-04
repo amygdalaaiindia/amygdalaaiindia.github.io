@@ -15,7 +15,7 @@ social:
     orcid: https://orcid.org/0009-0001-3871-4477
     research-gate: https://www.researchgate.net/profile/Rajesh-Chowdhury?ev=hdr_xprf
 education:
- - B.Tech in Computer Science and Engineering, KIIT-DU
+ - B.Tech in Computer Science and Engineering, KIIT-DU, India
 ---
 
 Rajesh Chowdhury completed his Bachelor's degree in Computer Science and Engineering in 2025. His research interests lie in the fields of artificial intelligence, machine learning, computer vision, and multi-modal learning systems. He has worked on projects involving object detection, and is particularly interested in applying intelligent algorithms to domains such as surveillance, autonomous systems, and environmental sensing. Rajesh actively engages with the research community through platforms like Google Scholar and ResearchGate, and maintains a personal portfolio showcasing his academic contributions. He is currently seeking Master's opportunities to further specialize in AI and ML, with a focus on real-world visual perception and intelligent decision-making systems.
