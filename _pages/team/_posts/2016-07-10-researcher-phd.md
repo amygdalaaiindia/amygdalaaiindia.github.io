@@ -9,7 +9,7 @@ permalink: 'team/Balaram-Singh'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
+    google-scholar: https://scholar.google.com/citations?user=rHfzxccAAAAJ&hl=en
     github: https://github.com/
     website:
     orcid: https://orcid.org/
@@ -18,5 +18,6 @@ education:
  - M.Tech in Computer Science and Engineering, KIIT-DU
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Balaram Singh (Student Member, IEEE) received the Bachelors and Masters degrees in Computer Application from IGNOU, New Delhi. He received the Masters degrees in Computer Science and Engineering from KIIT Deemed to be University, where he is currently pursuing the Ph.D. degree in computer engineering. He is working as an Assistant Professor at the Department of Computer Science and Application, Utkal University.
+He has published research articles in the different reputed conferences and journals. His research interests include wireless communication, indoor localization, and deep learning.
 
