@@ -4,7 +4,7 @@ category: phd
 title: Balaram Singh
 image: Balaram pic gray bg.png
 role: PhD Student
-date: 2016-08-06
+date: 2021-08-06
 permalink: 'team/Balaram-Singh'
 social:
     twitter: https://twitter.com/
