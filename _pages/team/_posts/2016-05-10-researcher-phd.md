@@ -7,12 +7,9 @@ role: PhD Student
 date: 2022-05-06
 permalink: 'team/Trishaani-Acharjee'
 social:
-    twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/in/trishaani-acharjee-9b0336184/
     google-scholar: https://scholar.google.com/citations?user=1WZYySkAAAAJ&hl=en
-    github: https://github.com/
-    website:
-    orcid: https://orcid.org/
+    website: 
     research-gate: https://www.researchgate.net/profile/Trishaani-Acharjee
 education:
  - M.Tech in Computer Science and Engineering, KIIT-DU
