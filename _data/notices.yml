@@ -1,7 +1,7 @@
 recent_notices:
   - title: "Reference-Verifier-2026"
     date: 2026-06-17
-    content: "Reference Verifier that cross-checks references against multiple independent scholarly databases and identifies potentially fake, incorrect, or inconsistent citations. **Check-My-Reference: https://reference-verifier.onrender.com/**."
+    content: "Reference Verifier that cross-checks references against multiple independent scholarly databases and identifies potentially fake, incorrect, or inconsistent citations. Please visit: **https://reference-verifier.onrender.com/**."
 
   - title: "Tech4Change-2026"
     date: 2026-03-14
