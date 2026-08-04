@@ -7,13 +7,8 @@ role: PhD Student
 date: 2021-08-06
 permalink: 'team/Balaram-Singh'
 social:
-    twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
     google-scholar: https://scholar.google.com/citations?user=rHfzxccAAAAJ&hl=en
-    github: https://github.com/
-    website:
-    orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
+    research-gate: https://www.researchgate.net/profile/Balaram-Singh-3
 education:
  - M.Tech in Computer Science and Engineering, KIIT-DU
 ---
