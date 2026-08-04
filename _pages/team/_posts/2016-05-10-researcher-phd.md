@@ -8,15 +8,16 @@ date: 2024-05-06
 permalink: 'team/Trishaani-Acharjee'
 social:
     twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
+    linkedin: https://www.linkedin.com/in/trishaani-acharjee-9b0336184/
+    google-scholar: https://scholar.google.com/citations?user=1WZYySkAAAAJ&hl=en
     github: https://github.com/
     website:
     orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
+    research-gate: https://www.researchgate.net/profile/Trishaani-Acharjee
 education:
  - M.Tech in Computer Science and Engineering, KIIT-DU
  - B.Tech in Electronics and Computer Science, KIIT-DU
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Trishaani Acharjee (Member, IEEE) received the B.Tech. degree in Electronics and Computer Science Engineering in 2020, and the M.Tech. In Computer Science and Engineering in the year 2022. She is currently working as an Assistant Professor at ICFAI University Tripura (thesis submitted in Computer Science and Engineering at KIIT Deemed to be University, Bhubaneswar, India). Her research focuses on deep learning applications in medical image analysis, with a special emphasis on automated wound classification and synthetic data generation. She is an active IEEE student member She is an enthusiastic and dedicated researcher with a growing academic portfolio in the areas of computer vision, convolutional neural networks, and hybrid AI architectures.
+She has contributed to multiple research publications in reputed international conferences. Her academic interests also span image synthesis, explainable AI, and real-time classification systems for clinical use. She is actively involved in collaborative research initiatives and aspires to integrate AI-driven innovation into real-world healthcare applications. In addition to her research, she enjoys academic writing, staying updated on emerging technologies, and mentoring junior scholars in AI/ML. She aims to pursue a career in academia, combining research excellence with impactful teaching.
