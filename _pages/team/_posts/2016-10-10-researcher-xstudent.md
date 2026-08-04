@@ -14,6 +14,7 @@ social:
     orcid: https://orcid.org/0009-0006-8432-4628
     research-gate: https://www.researchgate.net/profile/Sudip-Chakrabarty-3
 education:
+ - Ph.D in Computer Science and Engineering, USA (Pursing)
  - B.Tech in Computer Science and Engineering, KIIT-DU
 ---
 
