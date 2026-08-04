@@ -4,7 +4,7 @@ category: phd
 title: Trishaani Acharjee
 image: Trishaani Acharjee IEEE Access res.png
 role: PhD Student
-date: 2024-05-06
+date: 2022-05-06
 permalink: 'team/Trishaani-Acharjee'
 social:
     twitter: https://twitter.com/
