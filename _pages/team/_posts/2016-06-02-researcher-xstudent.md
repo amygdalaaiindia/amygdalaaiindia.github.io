@@ -7,11 +7,8 @@ role: Bachelor Student
 date: 2022-04-07 to 2024-05-01 
 permalink: 'team/Saptarshi-Mazumdar'
 social:
-    website: 
     linkedin: https://www.linkedin.com/in/saptarshi-mazumdar/
     google-scholar: https://scholar.google.com/citations?user=tJVHz8QAAAAJ&hl=en
-    github: https://github.com/
-    orcid: https://orcid.org/
     research-gate: https://www.researchgate.net/profile/Saptarshi-Mazumdar
 education:
  - M.Tech in Computer Science and Engineering, IIT Madras, India (Pursing)
