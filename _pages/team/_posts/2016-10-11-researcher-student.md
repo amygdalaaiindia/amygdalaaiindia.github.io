@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: xstudent
 title: Pappu Bishwas
 image: Pappu pic gray bg.jpg
 role: Bachelor Student
@@ -18,4 +18,4 @@ education:
  - B.Tech in Computer Science and Engineering, KIIT-DU
 ---
 
-Pappu Bishwas is pursuing his Bachelor's degree in Computer Science and Engineering at KIIT-DU. His academic and research interests span artificial intelligence, machine learning, computer vision, and natural language processing. He has developed several projects in deep learning, model deployment, and intelligent applications, with a focus on solving real-world problems using AI. Pappu actively shares his work through platforms such as GitHub, Google Scholar, and ResearchGate, and maintains a personal website to showcase his academic contributions and portfolio. He aims to further specialize in AI and data science, particularly in domains involving multimodal learning, human–computer interaction, and intelligent decision-making systems.
+Pappu Bishwas is currently working at TCS India. He received his Bachelor's degree in Computer Science and Engineering at KIIT-DU. His academic and research interests span artificial intelligence, machine learning, computer vision, and natural language processing. He has developed several projects in deep learning, model deployment, and intelligent applications, with a focus on solving real-world problems using AI. Pappu actively shares his work through platforms such as GitHub, Google Scholar, and ResearchGate, and maintains a personal website to showcase his academic contributions and portfolio. He aims to further specialize in AI and data science, particularly in domains involving multimodal learning, human–computer interaction, and intelligent decision-making systems.
