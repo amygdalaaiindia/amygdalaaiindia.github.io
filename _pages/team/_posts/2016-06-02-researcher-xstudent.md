@@ -3,7 +3,7 @@ layout: member
 category: xstudent
 title: Saptarshi Mazumdar
 image: Saptarshi Mazumdar Pic.jpg
-role: Bachelor Student
+role: Alumnus (Bachelor Student)
 date: 2022-04-07 to 2024-05-01 
 permalink: 'team/Saptarshi-Mazumdar'
 social:
