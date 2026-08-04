@@ -3,7 +3,7 @@ layout: member
 category: xstudent
 title: Sudip Chakrabarty
 image: Sudip pic gray bg.jpeg
-role: Bachelor Student
+role: Alumnus (Bachelor Student)
 date: 2016-08-06
 permalink: 'team/Sudip-Chakrabarty'
 social:
