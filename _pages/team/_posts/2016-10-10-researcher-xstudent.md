@@ -15,7 +15,7 @@ social:
     research-gate: https://www.researchgate.net/profile/Sudip-Chakrabarty-3
 education:
  - Ph.D in Computer Science and Engineering, USA (Pursing)
- - B.Tech in Computer Science and Engineering, KIIT-DU
+ - B.Tech in Computer Science and Engineering, KIIT-DU, India
 ---
 
 Sudip Chakrabarty is currently pursuing his Ph.D. in USA. He earned his Bachelor's degree in Computer Science and Engineering from KIIT-DU in 2016. His academic interests lie in artificial intelligence, machine learning, and computer vision, with a focus on practical applications such as intelligent systems, automation, and applied data science. Sudip has undertaken projects in deep learning and algorithm development, demonstrating strong problem-solving abilities and technical expertise. He continues to expand his research presence through platforms like Google Scholar and ResearchGate, and actively shares his work on GitHub. Sudip aims to further specialize in AI-driven technologies to contribute to advancements in intelligent automation, visual perception, and decision-making systems.
