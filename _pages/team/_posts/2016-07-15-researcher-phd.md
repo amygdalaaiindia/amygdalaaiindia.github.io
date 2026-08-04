@@ -7,12 +7,9 @@ role: PhD Student
 date: 2023-05-06
 permalink: 'team/Jheelam-Mondal'
 social:
-    twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/in/jheelam-mondal-90082999/
     google-scholar: https://scholar.google.com/citations?user=kXZBxWYAAAAJ&hl=en
-    github: https://github.com/
     website: https://hithaldia.ac.in/faculty-profile?id=19
-    orcid: https://orcid.org/
     research-gate: https://www.researchgate.net/profile/Jheelam-Mondal
 education:
  - M.Tech in Computer Science and Engineering, MAKAUT
