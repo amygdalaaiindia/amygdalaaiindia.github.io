@@ -3,7 +3,7 @@ layout: member
 category: xstudent
 title: Ritabrata Roy Choudhury
 image: RitabrataRoyChoudhury.jpeg
-role: Bachelor Student
+role: Alumnus (Bachelor Student)
 date: 2025-09-16
 permalink: 'team/Ritabrata-Roy-Choudhury'
 social:
