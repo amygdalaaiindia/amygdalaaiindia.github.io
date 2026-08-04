@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: xstudent
 title: Ritabrata Roy Choudhury
 image: RitabrataRoyChoudhury.jpeg
 role: Bachelor Student
