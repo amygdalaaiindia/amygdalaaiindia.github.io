@@ -12,8 +12,8 @@ social:
     website: 
     research-gate: https://www.researchgate.net/profile/Trishaani-Acharjee
 education:
- - M.Tech in Computer Science and Engineering, KIIT-DU
- - B.Tech in Electronics and Computer Science, KIIT-DU
+ - M.Tech in Computer Science and Engineering, KIIT-DU, India
+ - B.Tech in Electronics and Computer Science, KIIT-DU, India
 ---
 
 She is currently working as an **Assistant Professor at ICFAI University Tripura** (thesis submitted in Computer Science and Engineering at KIIT Deemed to be University, Bhubaneswar, India). Trishaani Acharjee (Member, IEEE) received the B.Tech. degree in Electronics and Computer Science Engineering in 2020, and the M.Tech. In Computer Science and Engineering in the year 2022. Her research focuses on deep learning applications in medical image analysis, with a special emphasis on automated wound classification and synthetic data generation. She is an active IEEE student member She is an enthusiastic and dedicated researcher with a growing academic portfolio in the areas of computer vision, convolutional neural networks, and hybrid AI architectures.
