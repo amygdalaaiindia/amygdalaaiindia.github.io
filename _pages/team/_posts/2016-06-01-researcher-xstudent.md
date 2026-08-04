@@ -14,7 +14,8 @@ social:
     orcid: https://orcid.org
     research-gate: https://www.researchgate.net/profile/Tathagata-Bandyopadhyay
 education:
- - B.Tech in Computer Science and Engineering, KIIT-DU
+ - M.Sc. in Informatics, Technical University of Munich (TUM), Germany
+ - B.Tech in Computer Science and Engineering, KIIT-DU, India
 ---
 
 He is a Research Assistant in the Autonomous Vision Group (AVG), led by Prof. Dr. Andreas Geiger, at the Tübingen AI Center, University of Tübingen, Germany. His current research focuses on exploring the underlying dynamics and semantic control of visual generative models, including diffusion and flow-matching models.
