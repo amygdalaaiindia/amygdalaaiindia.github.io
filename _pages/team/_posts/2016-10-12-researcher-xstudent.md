@@ -2,7 +2,7 @@
 layout: member
 category: xstudent
 title: Atri Biswas
-image: Atri Biswas pic.png
+image: Atri Biswas Pic.png
 role: Alumnus (Bachelor Student)
 date: 2022-08-20
 permalink: 'team/Atri-Biswas'
