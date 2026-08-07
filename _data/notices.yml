@@ -1,4 +1,8 @@
 recent_notices:
+  - title: "IEEE-TENCON-2026"
+    date: 2026-08-01
+    content: "Delighted to share that our research paper, "AMFF-Seg: Adaptive Multi-Scale Feature Fusion for Robust Wound Segmentation," has been accepted at IEEE TENCON 2026 (IEEE Region 10 Conference), to be held in Bali, Indonesia (10–13 October 2026)"
+  
   - title: "Reference-Verifier-2026"
     date: 2026-06-17
     content: "Reference Verifier that cross-checks references against multiple independent scholarly databases and identifies potentially fake, incorrect, or inconsistent citations. Please visit: **https://reference-verifier.onrender.com/**."
@@ -14,7 +18,3 @@ recent_notices:
   - title: "Research Thrust"
     date: 2025-07-15
     content: "Biomedical Engineering, Safety and Surveillance, Cultural Heritage."
-
-  - title: "Welcome!"
-    date: 2025-07-10
-    content: "Now, AmygdalaAI is in India."
