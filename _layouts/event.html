@@ -1,0 +1,122 @@
+---
+layout: default
+---
+
+<!-- Breadcrumb -->
+<div class="container mt-3">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/events/">Events</a></li>
+      <li class="breadcrumb-item active">{{ page.title }}</li>
+    </ol>
+  </nav>
+</div>
+
+<!-- Event Detail Section -->
+<section class="event-detail py-5">
+  <div class="container">
+
+    <!-- Poster -->
+    {% if page.poster %}
+    <div class="text-center mb-4">
+      <img src="{{ page.poster }}" alt="{{ page.title }}"
+           class="img-fluid rounded shadow event-poster">
+    </div>
+    {% endif %}
+
+    <!-- Title -->
+    <h1 class="mb-2">{{ page.title }}</h1>
+
+    <!-- Meta -->
+    <p class="text-muted">
+      📅 {{ page.display_date }} &nbsp;|&nbsp;
+      🕙 {{ page.time }} &nbsp;|&nbsp;
+      📍 {{ page.venue }}
+      {% assign today = 'now' | date: "%Y-%m-%d" %}
+      {% if page.date < today %}
+        <span class="badge bg-secondary ms-2">Past</span>
+      {% else %}
+        <span class="badge bg-success ms-2">Upcoming</span>
+      {% endif %}
+    </p>
+
+    <!-- Tags -->
+    <div class="mb-3">
+      <span class="badge bg-primary me-1">{{ page.type }}</span>
+      {% for tag in page.tags %}
+        <span class="badge bg-secondary me-1">{{ tag }}</span>
+      {% endfor %}
+    </div>
+
+    <hr>
+
+    <!-- Description (from markdown body of the .md file) -->
+    <h4>About the Event</h4>
+    <div class="event-description">
+      {{ content }}
+    </div>
+
+    <!-- Schedule -->
+    {% if page.schedule %}
+    <h4 class="mt-4">Schedule</h4>
+    <table class="table table-bordered table-sm w-auto">
+      <tbody>
+        {% for slot in page.schedule %}
+        <tr>
+          <td class="text-muted pe-4">{{ slot.time }}</td>
+          <td>{{ slot.item }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endif %}
+
+    <!-- Speakers -->
+    {% if page.speakers %}
+    <h4 class="mt-4">Speakers</h4>
+    <div class="row">
+      {% for speaker in page.speakers %}
+      <div class="col-md-3 col-6 text-center mb-3">
+        <img src="{{ speaker.photo }}" alt="{{ speaker.name }}"
+             class="rounded-circle mb-2 speaker-photo">
+        <p class="mb-0"><strong>{{ speaker.name }}</strong></p>
+        <p class="text-muted small">{{ speaker.affiliation }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Links -->
+    <h4 class="mt-4">Links</h4>
+    <div>
+      {% assign today = 'now' | date: "%Y-%m-%d" %}
+      {% if page.links.register != "" and page.date >= today %}
+        <a href="{{ page.links.register }}" class="btn btn-success me-2 mb-2"
+           target="_blank">📝 Register Now</a>
+      {% endif %}
+      {% if page.links.recording != "" %}
+        <a href="{{ page.links.recording }}" class="btn btn-danger me-2 mb-2"
+           target="_blank">▶ Watch Recording</a>
+      {% endif %}
+      {% if page.links.brochure != "" %}
+        <a href="{{ page.links.brochure }}" class="btn btn-outline-secondary me-2 mb-2"
+           target="_blank">📄 Download Brochure</a>
+      {% endif %}
+      {% if page.links.slides != "" %}
+        <a href="{{ page.links.slides }}" class="btn btn-outline-primary me-2 mb-2"
+           target="_blank">📊 View Slides</a>
+      {% endif %}
+      {% if page.links.external != "" %}
+        <a href="{{ page.links.external }}" class="btn btn-outline-dark me-2 mb-2"
+           target="_blank">🔗 More Info</a>
+      {% endif %}
+    </div>
+
+    <!-- Back -->
+    <div class="mt-5">
+      <a href="/events/" class="btn btn-outline-secondary">← Back to All Events</a>
+    </div>
+
+  </div>
+</section>
