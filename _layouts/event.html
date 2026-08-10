@@ -1,0 +1,199 @@
+---
+layout: default
+---
+
+<!-- Breadcrumb -->
+<div class="container" style="padding-top:16px;">
+  <ol class="breadcrumb">
+    <li><a href="{{ site.baseurl }}/">Home</a></li>
+    <li><a href="{{ site.baseurl }}/events/">Events</a></li>
+    <li class="active">{{ page.title }}</li>
+  </ol>
+</div>
+
+<!-- Event Detail Section -->
+<div class="container" style="padding-bottom:60px;">
+
+  <!-- Poster -->
+  {% if page.poster %}
+  <div style="text-align:center; margin-bottom:28px;">
+    <img src="{{ site.baseurl }}{{ page.poster }}"
+         alt="{{ page.title }}"
+         style="max-height:420px; max-width:100%;
+                border-radius:6px;
+                box-shadow:0 3px 14px rgba(0,0,0,0.15);">
+  </div>
+  {% endif %}
+
+  <!-- Title -->
+  <h2 style="margin-bottom:8px;">{{ page.title }}</h2>
+
+  <!-- Meta — date / time / venue / status badge -->
+  <!-- FIX 1: use site.time instead of 'now' -->
+  {% assign today    = site.time | date: "%Y-%m-%d" %}
+  {% assign edate    = page.date | date: "%Y-%m-%d" %}
+
+  <p style="color:#888; font-size:14px; margin-bottom:10px;">
+    {% if page.display_date %}📅 {{ page.display_date }}{% endif %}
+    {% if page.time %} &nbsp;|&nbsp; 🕙 {{ page.time }}{% endif %}
+    {% if page.venue %} &nbsp;|&nbsp; 📍 {{ page.venue }}{% endif %}
+    &nbsp;&nbsp;
+    <!-- FIX 2: compare formatted strings, not raw date vs string -->
+    {% if edate >= today %}
+      <span class="label label-success">Upcoming</span>
+    {% else %}
+      <span class="label label-default">Past</span>
+    {% endif %}
+  </p>
+
+  <!-- Type + Tags — FIX 4: Bootstrap 3 uses 'label' not 'badge' -->
+  <div style="margin-bottom:16px;">
+    {% if page.type %}
+      <span class="label label-primary">{{ page.type }}</span>
+    {% endif %}
+    {% for tag in page.tags %}
+      <span class="label label-default" style="margin-left:4px;">
+        {{ tag }}
+      </span>
+    {% endfor %}
+  </div>
+
+  <hr>
+
+  <!-- Description from markdown body -->
+  <h4>About the Event</h4>
+  <div style="margin-bottom:24px;">
+    {{ content }}
+  </div>
+
+  <!-- Gallery (optional, multiple photos e.g. event-day coverage) -->
+  {% if page.gallery %}
+  <h4 style="margin-top:30px;">Event Gallery</h4>
+  <div class="row" style="margin-bottom:10px;">
+    {% for photo in page.gallery %}
+    <div class="col-md-3 col-sm-4 col-xs-6" style="margin-bottom:16px;">
+      <a href="{{ site.baseurl }}{{ photo }}" target="_blank">
+        <img src="{{ site.baseurl }}{{ photo }}"
+             alt="{{ page.title }} photo {{ forloop.index }}"
+             style="width:100%; height:150px; object-fit:cover;
+                    border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.12);">
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Schedule -->
+  {% if page.schedule %}
+  <h4 style="margin-top:30px;">Schedule</h4>
+  <table class="table table-bordered table-condensed"
+         style="max-width:520px; font-size:14px;">
+    <tbody>
+      {% for slot in page.schedule %}
+      <tr>
+        <td style="color:#888; width:130px; white-space:nowrap;">
+          {{ slot.time }}
+        </td>
+        <td>{{ slot.item }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endif %}
+
+  <!-- Speakers -->
+  {% if page.speakers %}
+  <h4 style="margin-top:30px;">Speakers</h4>
+  <div class="row">
+    {% for speaker in page.speakers %}
+    <div class="col-md-3 col-sm-4 col-xs-6"
+         style="text-align:center; margin-bottom:20px;">
+      {% if speaker.photo %}
+      <img src="{{ speaker.photo }}"
+           alt="{{ speaker.name }}"
+           style="width:80px; height:80px; border-radius:50%;
+                  object-fit:cover; margin-bottom:8px;
+                  border:2px solid #eee;">
+      {% endif %}
+      <p style="margin:0; font-weight:600; font-size:14px;">
+        {{ speaker.name }}
+      </p>
+      <p style="margin:0; color:#888; font-size:12px;">
+        {{ speaker.affiliation }}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Links -->
+  <!-- FIX 3: guard every link with 'and page.links.X' to avoid nil crash -->
+  <h4 style="margin-top:30px;">Links</h4>
+  <div>
+
+    {% if page.links and page.links.register
+          and page.links.register != ""
+          and edate >= today %}
+      <a href="{{ page.links.register }}"
+         class="btn btn-success"
+         target="_blank"
+         style="margin-right:8px; margin-bottom:8px;">
+        📝 Register Now
+      </a>
+    {% endif %}
+
+    {% if page.links and page.links.recording
+          and page.links.recording != "" %}
+      <a href="{{ page.links.recording }}"
+         class="btn btn-danger"
+         target="_blank"
+         style="margin-right:8px; margin-bottom:8px;">
+        ▶ Watch Recording
+      </a>
+    {% endif %}
+
+    {% if page.links and page.links.slides
+          and page.links.slides != "" %}
+      <a href="{{ page.links.slides }}"
+         class="btn btn-primary"
+         target="_blank"
+         style="margin-right:8px; margin-bottom:8px;">
+        📊 View Slides
+      </a>
+    {% endif %}
+
+    {% if page.links and page.links.brochure
+          and page.links.brochure != "" %}
+      <a href="{{ page.links.brochure }}"
+         class="btn btn-default"
+         target="_blank"
+         style="margin-right:8px; margin-bottom:8px;">
+        📄 Download Brochure
+      </a>
+    {% endif %}
+
+    {% if page.links and page.links.external
+          and page.links.external != "" %}
+      <a href="{{ page.links.external }}"
+         class="btn btn-default"
+         target="_blank"
+         style="margin-right:8px; margin-bottom:8px;">
+        🔗 More Info
+      </a>
+    {% endif %}
+
+    {% unless page.links %}
+      <p style="color:#aaa;">No links available yet.</p>
+    {% endunless %}
+
+  </div>
+
+  <!-- Back button -->
+  <div style="margin-top:40px;">
+    <a href="{{ site.baseurl }}/events/"
+       class="btn btn-default">
+      ← Back to All Events
+    </a>
+  </div>
+
+</div>
