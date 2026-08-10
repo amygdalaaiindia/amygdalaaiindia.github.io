@@ -1,0 +1,76 @@
+# _data/events.yml
+
+- id: nlp-workshop-sep2025
+  title: "Workshop on NLP & LLMs"
+  type: Workshop
+  tags:
+    - NLP
+    - LLMs
+    - Deep Learning
+  date: "2025-09-20"
+  display_date: "20 September 2025"
+  time: "10:00 AM – 5:00 PM IST"
+  venue: "IIT Rourkela + Zoom"
+  poster: "/assets/images/events/nlp-workshop.jpg"
+  short_description: >
+    An intensive one-day workshop exploring large language models
+    and their real-world applications in Indian language processing.
+  schedule:
+    - time: "10:00 AM"
+      item: "Introduction & Keynote"
+    - time: "11:30 AM"
+      item: "Hands-on Session 1: Prompt Engineering"
+    - time: "01:00 PM"
+      item: "Lunch Break"
+    - time: "02:00 PM"
+      item: "Hands-on Session 2: Fine-tuning"
+    - time: "04:00 PM"
+      item: "Panel Discussion"
+    - time: "05:00 PM"
+      item: "Closing Remarks"
+  speakers:
+    - name: "Dr. Jane Doe"
+      affiliation: "IIT Delhi"
+      photo: "/assets/images/team/speaker1.jpg"
+    - name: "Prof. Rajan Kumar"
+      affiliation: "IISc Bangalore"
+      photo: "/assets/images/team/speaker2.jpg"
+  links:
+    register: "https://forms.gle/yourformlink"
+    recording: ""
+    brochure: "/assets/pdfs/nlp-workshop-brochure.pdf"
+    slides: ""
+    external: ""
+
+- id: cv-talk-oct2025
+  title: "Talk: Computer Vision in Healthcare"
+  type: Talk
+  tags:
+    - Computer Vision
+    - Healthcare
+    - AI
+  date: "2025-10-15"
+  display_date: "15 October 2025"
+  time: "3:00 PM – 5:00 PM IST"
+  venue: "Online (Zoom)"
+  poster: "/assets/images/events/cv-talk.jpg"
+  short_description: >
+    An expert talk on applying computer vision techniques
+    to medical imaging problems.
+  schedule:
+    - time: "3:00 PM"
+      item: "Introduction"
+    - time: "3:10 PM"
+      item: "Main Talk"
+    - time: "4:30 PM"
+      item: "Q&A Session"
+  speakers:
+    - name: "Dr. Priya Sharma"
+      affiliation: "AIIMS Delhi"
+      photo: "/assets/images/team/speaker3.jpg"
+  links:
+    register: ""
+    recording: "https://youtube.com/watch?v=example"
+    brochure: ""
+    slides: "https://slides.com/example"
+    external: ""
