@@ -22,6 +22,12 @@ include:
 sass:
   sass_dir: _sass
 
+# ADD THIS BLOCK ↓
+collections:
+  events:
+    output: true
+    permalink: /events/:name/
+    
 # Conversion
 markdown: kramdown
 highlighter: rouge
