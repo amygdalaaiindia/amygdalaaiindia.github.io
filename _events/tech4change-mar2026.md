@@ -1,0 +1,37 @@
+---
+layout: event
+title: "Tech4Change 2026"
+type: Contest
+tags: [Innovation, Project Contest, CINE, Vikshit Bharat 2047]
+date: "2026-03-14"
+display_date: "14 March 2026"
+time: ""
+venue: "KIIT University (co-located with 7th CINE Conference)"
+poster: "/images/events/t4c_mar1.jpg"
+gallery:
+  - "/images/events/t4c_mar1.jpg"
+  - "/images/events/t4c_mar2.jpg"
+  - "/images/events/t4c_mar3.jpg"
+  - "/images/events/t4c_mar4.jpg"
+  - "/images/events/t4c_mar5.jpg"
+short_description: >
+  A project innovation contest, held as a sister event of the 7th CINE
+  conference, aligned with the Vikshit Bharat 2047 vision.
+links:
+  register: ""
+  recording: ""
+  brochure: ""
+  slides: ""
+  external: ""
+---
+
+Tech4Change is a **project innovation contest** organised as a sister event
+of the **7th CINE conference**, aligned with the **Vikshit Bharat 2047**
+vision of a developed India.
+
+The event brought together student and early-career innovators to pitch
+technology-driven solutions to real-world problems, with an emphasis on
+practical impact and scalability.
+
+**Tech4Change 2026 has concluded.** Photos from the event are in the
+gallery below.
