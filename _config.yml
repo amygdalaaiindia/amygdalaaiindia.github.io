@@ -21,6 +21,11 @@ include:
 
 sass:
   sass_dir: _sass
+
+collections:
+  events:
+    output: true
+    permalink: /events/:name/
    
 # Conversion
 markdown: kramdown
