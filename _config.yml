@@ -21,13 +21,7 @@ include:
 
 sass:
   sass_dir: _sass
-
-# ADD THIS BLOCK ↓
-collections:
-  events:
-    output: true
-    permalink: /events/:name/
-    
+   
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -46,15 +40,3 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
-
-# Safe plugins list for GitHub Pages
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
-  - jekyll-github-metadata
-  - jekyll-paginate
