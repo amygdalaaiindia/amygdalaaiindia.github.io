@@ -7,7 +7,7 @@ date: "2026-12-01"
 display_date: "December 2026 (exact date TBA)"
 time: ""
 venue: "TBA"
-poster: ""
+poster: "/images/events/tech4change-dec2026/poster.png"
 short_description: >
   The next edition of the Tech4Change project innovation contest.
   Full details, dates, and registration will be posted here closer
