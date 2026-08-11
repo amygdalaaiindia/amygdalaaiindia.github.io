@@ -9,10 +9,7 @@ time: ""
 venue: "TBA"
 poster: "/images/events/tech4change-dec2026/poster.png"
 short_description: >
-  Tech4Change Winter Edition 2026 — Winter is Coming: a student project
-  innovation contest challenging young innovators to transform
-  technology-driven ideas into practical prototypes for a better and
-  more resilient Viksit Bharat 2047.
+  Empowering young innovators to transform technology-driven ideas into practical prototypes for a better, stronger, and more resilient Viksit Bharat 2047.
 links:
   register: ""
   recording: ""
