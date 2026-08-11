@@ -31,7 +31,7 @@ layout: default
   <!-- Meta — date / time / venue / status badge -->
   <!-- FIX 1: use site.time instead of 'now' -->
   {% assign today    = site.time | date: "%Y-%m-%d" %}
-  {% assign edate    = page.date | date: "%Y-%m-%d" %}
+  {% assign edate = page.event_date | default: page.date | date: "%Y-%m-%d" %}
 
   <p style="color:#888; font-size:14px; margin-bottom:10px;">
     {% if page.display_date %}📅 {{ page.display_date }}{% endif %}
