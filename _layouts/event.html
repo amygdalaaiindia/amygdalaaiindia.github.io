@@ -28,33 +28,35 @@ layout: default
   <!-- Title -->
   <h2 style="margin-bottom:8px;">{{ page.title }}</h2>
 
-  <!-- Meta — date / time / venue / status badge -->
-  <!-- FIX 1: use site.time instead of 'now' -->
-  {% assign today    = site.time | date: "%Y-%m-%d" %}
-  {% assign edate = page.event_date | default: page.date | date: "%Y-%m-%d" %}
+  <!-- Unix-timestamp comparison — timezone-safe, no string-sort ambiguity -->
+  {% assign today_ts = site.time | date: "%s" | plus: 0 %}
+  {% assign edate_ts = page.date | date: "%s" | plus: 0 %}
+  {% if edate_ts >= today_ts %}
+    {% assign is_upcoming = true %}
+  {% else %}
+    {% assign is_upcoming = false %}
+  {% endif %}
 
+  <!-- Meta — date / time / venue / status badge -->
   <p style="color:#888; font-size:14px; margin-bottom:10px;">
     {% if page.display_date %}📅 {{ page.display_date }}{% endif %}
     {% if page.time %} &nbsp;|&nbsp; 🕙 {{ page.time }}{% endif %}
     {% if page.venue %} &nbsp;|&nbsp; 📍 {{ page.venue }}{% endif %}
     &nbsp;&nbsp;
-    <!-- FIX 2: compare formatted strings, not raw date vs string -->
-    {% if edate >= today %}
+    {% if is_upcoming %}
       <span class="label label-success">Upcoming</span>
     {% else %}
       <span class="label label-default">Past</span>
     {% endif %}
   </p>
 
-  <!-- Type + Tags — FIX 4: Bootstrap 3 uses 'label' not 'badge' -->
+  <!-- Type + Tags -->
   <div style="margin-bottom:16px;">
     {% if page.type %}
       <span class="label label-primary">{{ page.type }}</span>
     {% endif %}
     {% for tag in page.tags %}
-      <span class="label label-default" style="margin-left:4px;">
-        {{ tag }}
-      </span>
+      <span class="label label-default" style="margin-left:4px;">{{ tag }}</span>
     {% endfor %}
   </div>
 
@@ -66,7 +68,7 @@ layout: default
     {{ content }}
   </div>
 
-  <!-- Gallery (optional, multiple photos e.g. event-day coverage) -->
+  <!-- Gallery -->
   {% if page.gallery %}
   <h4 style="margin-top:30px;">Event Gallery</h4>
   <div class="row" style="margin-bottom:10px;">
@@ -91,9 +93,7 @@ layout: default
     <tbody>
       {% for slot in page.schedule %}
       <tr>
-        <td style="color:#888; width:130px; white-space:nowrap;">
-          {{ slot.time }}
-        </td>
+        <td style="color:#888; width:130px; white-space:nowrap;">{{ slot.time }}</td>
         <td>{{ slot.item }}</td>
       </tr>
       {% endfor %}
@@ -115,83 +115,71 @@ layout: default
                   object-fit:cover; margin-bottom:8px;
                   border:2px solid #eee;">
       {% endif %}
-      <p style="margin:0; font-weight:600; font-size:14px;">
-        {{ speaker.name }}
-      </p>
-      <p style="margin:0; color:#888; font-size:12px;">
-        {{ speaker.affiliation }}
-      </p>
+      <p style="margin:0; font-weight:600; font-size:14px;">{{ speaker.name }}</p>
+      <p style="margin:0; color:#888; font-size:12px;">{{ speaker.affiliation }}</p>
     </div>
     {% endfor %}
   </div>
   {% endif %}
 
   <!-- Links -->
-  <!-- FIX 3: guard every link with 'and page.links.X' to avoid nil crash -->
   <h4 style="margin-top:30px;">Links</h4>
   <div>
+    {% assign has_any_link = false %}
 
-    {% if page.links and page.links.register
-          and page.links.register != ""
-          and edate >= today %}
+    {% if page.links.register and page.links.register != "" and is_upcoming %}
+      {% assign has_any_link = true %}
       <a href="{{ page.links.register }}"
-         class="btn btn-success"
-         target="_blank"
+         class="btn btn-success" target="_blank"
          style="margin-right:8px; margin-bottom:8px;">
         📝 Register Now
       </a>
     {% endif %}
 
-    {% if page.links and page.links.recording
-          and page.links.recording != "" %}
+    {% if page.links.recording and page.links.recording != "" %}
+      {% assign has_any_link = true %}
       <a href="{{ page.links.recording }}"
-         class="btn btn-danger"
-         target="_blank"
+         class="btn btn-danger" target="_blank"
          style="margin-right:8px; margin-bottom:8px;">
         ▶ Watch Recording
       </a>
     {% endif %}
 
-    {% if page.links and page.links.slides
-          and page.links.slides != "" %}
+    {% if page.links.slides and page.links.slides != "" %}
+      {% assign has_any_link = true %}
       <a href="{{ page.links.slides }}"
-         class="btn btn-primary"
-         target="_blank"
+         class="btn btn-primary" target="_blank"
          style="margin-right:8px; margin-bottom:8px;">
         📊 View Slides
       </a>
     {% endif %}
 
-    {% if page.links and page.links.brochure
-          and page.links.brochure != "" %}
+    {% if page.links.brochure and page.links.brochure != "" %}
+      {% assign has_any_link = true %}
       <a href="{{ page.links.brochure }}"
-         class="btn btn-default"
-         target="_blank"
+         class="btn btn-default" target="_blank"
          style="margin-right:8px; margin-bottom:8px;">
         📄 Download Brochure
       </a>
     {% endif %}
 
-    {% if page.links and page.links.external
-          and page.links.external != "" %}
+    {% if page.links.external and page.links.external != "" %}
+      {% assign has_any_link = true %}
       <a href="{{ page.links.external }}"
-         class="btn btn-default"
-         target="_blank"
+         class="btn btn-default" target="_blank"
          style="margin-right:8px; margin-bottom:8px;">
         🔗 More Info
       </a>
     {% endif %}
 
-    {% unless page.links %}
+    {% unless has_any_link %}
       <p style="color:#aaa;">No links available yet.</p>
     {% endunless %}
-
   </div>
 
   <!-- Back button -->
   <div style="margin-top:40px;">
-    <a href="{{ site.baseurl }}/events/"
-       class="btn btn-default">
+    <a href="{{ site.baseurl }}/events/" class="btn btn-default">
       ← Back to All Events
     </a>
   </div>
