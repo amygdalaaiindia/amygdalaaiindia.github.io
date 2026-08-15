@@ -11,9 +11,9 @@ poster: "/images/events/tech4change-dec2026/poster.png"
 short_description: >
   Empowering young innovators to transform technology-driven ideas into practical prototypes for a better, stronger, and more resilient Viksit Bharat 2047.
 links:
-  register: ""
+  register: "https://www.iihtconf.org/registration"
   recording: ""
-  brochure: ""
+  brochure: "https://drive.google.com/drive/folders/1mDwgVDgEUAaUv_jOULCiyT2jBgBhuVdd?usp=sharing"
   slides: ""
   external: ""
 ---
