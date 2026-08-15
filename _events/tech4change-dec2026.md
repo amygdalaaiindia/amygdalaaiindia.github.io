@@ -13,7 +13,7 @@ short_description: >
 links:
   register: "https://www.iihtconf.org/registration"
   recording: ""
-  brochure: "https://drive.google.com/drive/folders/1mDwgVDgEUAaUv_jOULCiyT2jBgBhuVdd?usp=sharing"
+  brochure: "https://drive.google.com/file/d/1ke5S7FrbOyWe0DBLye1z6pO9yKfvG9Up/view?usp=sharing"
   slides: ""
   external: ""
 ---
@@ -58,5 +58,3 @@ The theme represents a challenge to innovators: anticipate tomorrow's
 problems today and build solutions before the future arrives.
 
 ---
-
-**For registration and payment, please visit https://www.iihtconf.org/registration for account details**
