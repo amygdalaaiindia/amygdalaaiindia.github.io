@@ -59,5 +59,4 @@ problems today and build solutions before the future arrives.
 
 ---
 
-**Exact dates, venue, and registration details are being finalised and
-will be published here soon.**
+**For registration and payment, please visit https://www.iihtconf.org/registration for account details**
