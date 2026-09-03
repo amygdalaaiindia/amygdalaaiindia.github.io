@@ -3,7 +3,7 @@ layout: event
 title: "Tech4Change Winter Edition 2027 — Winter Is Coming"
 type: Contest
 tags: [Innovation, Project Contest, CINE, Vikshit Bharat 2047, Winter Edition]
-date: "2027"        
+date: "01-Mar-2027"        
 display_date: "TBA"
 time: ""
 venue: "TBA"
