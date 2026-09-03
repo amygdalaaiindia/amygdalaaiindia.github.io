@@ -1,28 +1,28 @@
 ---
 layout: event
-title: "Tech4Change Winter Edition 2026 — Winter Is Coming"
+title: "Tech4Change Winter Edition 2027 — Winter Is Coming"
 type: Contest
 tags: [Innovation, Project Contest, CINE, Vikshit Bharat 2047, Winter Edition]
-date: "2026-12-17"        
-display_date: "17-December-2026"
+date: "2027"        
+display_date: "TBA"
 time: ""
 venue: "TBA"
 poster: "/images/events/tech4change-dec2026/poster.png"
 short_description: >
   Empowering young innovators to transform technology-driven ideas into practical prototypes for a better, stronger, and more resilient Viksit Bharat 2047.
 links:
-  register: "https://www.iihtconf.org/registration"
+  register: ""
   recording: ""
-  brochure: "https://drive.google.com/file/d/1ke5S7FrbOyWe0DBLye1z6pO9yKfvG9Up/view?usp=sharing"
+  brochure: ""
   slides: ""
   external: ""
 ---
 ## Winter Is Coming ❄️
-**Tech4Change Winter Edition 2026** is a special winter edition of the
+**Tech4Change Winter Edition 2027** is a special winter edition of the
 Tech4Change project innovation contest, organised as a sister event of
 the **7th CINE Conference** and inspired by the vision of
 **Viksit Bharat 2047**.
-Building on the success of Tech4Change 2026, the Winter Edition invites
+Building on the success of Tech4Change 2027, the Winter Edition invites
 B.Tech students, student innovators, developers, and early-career
 researchers to turn meaningful ideas into practical technology-driven
 solutions for real-world challenges.
