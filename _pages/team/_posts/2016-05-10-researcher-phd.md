@@ -1,9 +1,9 @@
 ---
 layout: member
-category: phd
+category: xstudent
 title: Trishaani Acharjee
 image: Trishaani Acharjee IEEE Access res.png
-role: PhD Student
+role: Alumnus (PhD Student)
 date: 2022-05-06
 permalink: 'team/Trishaani-Acharjee'
 social:
