@@ -12,6 +12,7 @@ social:
     website: 
     research-gate: https://www.researchgate.net/profile/Trishaani-Acharjee
 education:
+ - Ph.D. in Computer Science and Engineering, KIIT-DU, India
  - M.Tech in Computer Science and Engineering, KIIT-DU, India
  - B.Tech in Electronics and Computer Science, KIIT-DU, India
 ---
